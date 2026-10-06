@@ -1,0 +1,73 @@
+group,model,n_weeks,n_obs,rel_RMSE_vs_naive,MAPE
+All test weeks,naive,90,900,1.0,3.196
+All test weeks,arima_fourier,90,900,0.8398,2.4968
+All test weeks,sarimax,90,900,0.7855,2.3439
+All test weeks,xgb,90,900,0.9335,2.9404
+All test weeks,blend50,90,900,0.7937,2.4072
+All test weeks,gated,90,900,0.8021,2.4377
+All test weeks,gated_noGA,90,900,0.7949,2.4224
+All test weeks,gated_P90,90,900,0.8098,2.4684
+Target week normal (S_t = 0),naive,57,570,1.0,2.9345
+Target week normal (S_t = 0),arima_fourier,57,570,0.6588,1.9368
+Target week normal (S_t = 0),sarimax,57,570,0.6157,1.7928
+Target week normal (S_t = 0),xgb,57,570,0.8793,2.5541
+Target week normal (S_t = 0),blend50,57,570,0.6817,1.9591
+Target week normal (S_t = 0),gated,57,570,0.689,1.9762
+Target week normal (S_t = 0),gated_noGA,57,570,0.6876,1.979
+Target week normal (S_t = 0),gated_P90,57,570,0.7043,2.0204
+Target week shock (S_t = 1),naive,33,330,1.0,3.6478
+Target week shock (S_t = 1),arima_fourier,33,330,0.9906,3.4639
+Target week shock (S_t = 1),sarimax,33,330,0.925,3.2959
+Target week shock (S_t = 1),xgb,33,330,0.9905,3.6077
+Target week shock (S_t = 1),blend50,33,330,0.9035,3.1811
+Target week shock (S_t = 1),gated,33,330,0.9143,3.2349
+Target week shock (S_t = 1),gated_noGA,33,330,0.9014,3.1883
+Target week shock (S_t = 1),gated_P90,33,330,0.9158,3.2423
+Gate state normal (S_t-1 = 0),naive,57,570,1.0,3.0532
+Gate state normal (S_t-1 = 0),arima_fourier,57,570,0.6508,1.9518
+Gate state normal (S_t-1 = 0),sarimax,57,570,0.6141,1.8271
+Gate state normal (S_t-1 = 0),xgb,57,570,0.9148,2.7756
+Gate state normal (S_t-1 = 0),blend50,57,570,0.7117,2.1155
+Gate state normal (S_t-1 = 0),gated,57,570,0.7117,2.1155
+Gate state normal (S_t-1 = 0),gated_noGA,57,570,0.7117,2.1069
+Gate state normal (S_t-1 = 0),gated_P90,57,570,0.7266,2.1639
+Gate state shock (S_t-1 = 1),naive,33,330,1.0,3.4426
+Gate state shock (S_t-1 = 1),arima_fourier,33,330,1.0334,3.438
+Gate state shock (S_t-1 = 1),sarimax,33,330,0.9638,3.2366
+Gate state shock (S_t-1 = 1),xgb,33,330,0.9603,3.2252
+Gate state shock (S_t-1 = 1),blend50,33,330,0.8952,2.911
+Gate state shock (S_t-1 = 1),gated,33,330,0.9125,2.9944
+Gate state shock (S_t-1 = 1),gated_noGA,33,330,0.8967,2.9674
+Gate state shock (S_t-1 = 1),gated_P90,33,330,0.9125,2.9944
+Rain-only shock weeks,naive,9,90,1.0,3.2493
+Rain-only shock weeks,arima_fourier,9,90,0.618,1.9838
+Rain-only shock weeks,sarimax,9,90,0.7251,2.2686
+Rain-only shock weeks,xgb,9,90,0.9904,3.2355
+Rain-only shock weeks,blend50,9,90,0.8253,2.5721
+Rain-only shock weeks,gated,9,90,0.8882,2.8146
+Rain-only shock weeks,gated_noGA,9,90,0.884,2.7961
+Rain-only shock weeks,gated_P90,9,90,0.891,2.8253
+Diesel-only shock weeks,naive,22,220,1.0,3.571
+Diesel-only shock weeks,arima_fourier,22,220,1.0365,3.6763
+Diesel-only shock weeks,sarimax,22,220,0.9986,3.4979
+Diesel-only shock weeks,xgb,22,220,0.9764,3.4927
+Diesel-only shock weeks,blend50,22,220,0.9189,3.1698
+Diesel-only shock weeks,gated,22,220,0.9045,3.1376
+Diesel-only shock weeks,gated_noGA,22,220,0.8907,3.0871
+Diesel-only shock weeks,gated_P90,22,220,0.9053,3.1444
+Both triggers,naive,2,20,1.0,6.2859
+Both triggers,arima_fourier,2,20,1.2604,7.7878
+Both triggers,sarimax,2,20,0.8965,5.6976
+Both triggers,xgb,2,20,1.0525,6.5487
+Both triggers,blend50,2,20,0.9771,6.0458
+Both triggers,gated,2,20,1.0038,6.1965
+Both triggers,gated_noGA,2,20,0.9818,6.0658
+Both triggers,gated_P90,2,20,1.0038,6.1965
+Neither trigger,naive,57,570,1.0,2.9345
+Neither trigger,arima_fourier,57,570,0.6588,1.9368
+Neither trigger,sarimax,57,570,0.6157,1.7928
+Neither trigger,xgb,57,570,0.8793,2.5541
+Neither trigger,blend50,57,570,0.6817,1.9591
+Neither trigger,gated,57,570,0.689,1.9762
+Neither trigger,gated_noGA,57,570,0.6876,1.979
+Neither trigger,gated_P90,57,570,0.7043,2.0204

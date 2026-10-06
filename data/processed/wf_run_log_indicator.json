@@ -1,0 +1,19 @@
+{
+ "series": "indicator",
+ "mode": "test",
+ "frozen_at": "2026-10-03T19:40:27",
+ "n_eval_weeks": 90,
+ "runtime_s": 0,
+ "python": "3.12.14",
+ "numpy": "2.5.3",
+ "pandas": "3.0.6",
+ "statsmodels": "0.15.0",
+ "xgboost": "3.4.1",
+ "sarimax_how": {
+  "fit": 900
+ },
+ "arima_how": {
+  "fit": 900
+ },
+ "monthly_months": 20
+}

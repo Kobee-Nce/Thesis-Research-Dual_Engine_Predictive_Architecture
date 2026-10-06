@@ -1,0 +1,50 @@
+benchmark,subset,n_weeks,ratio_gated_over_benchmark,ci95_low,ci95_high,prob_gated_better,valid_resamples
+naive,All weeks,90,0.8021,0.7213,0.8713,1.0,2000
+naive,Normal target week,57,0.689,0.6567,0.7344,1.0,2000
+naive,Shock target week,33,0.9143,0.8213,0.9613,1.0,2000
+naive,Gate state normal,57,0.7117,0.6695,0.7778,1.0,2000
+naive,Gate state shock,33,0.9125,0.8114,0.9589,1.0,2000
+naive,Rain-only weeks,9,0.8882,0.7452,0.9664,0.9985,1998
+naive,Diesel-only weeks,22,0.9045,0.7883,0.9706,0.9995,2000
+arima_fourier,All weeks,90,0.9551,0.8926,1.0508,0.844,2000
+arima_fourier,Normal target week,57,1.0458,0.9698,1.1178,0.117,2000
+arima_fourier,Shock target week,33,0.9229,0.8425,1.0534,0.92,2000
+arima_fourier,Gate state normal,57,1.0935,1.0375,1.1553,0.0,2000
+arima_fourier,Gate state shock,33,0.883,0.7998,0.9619,0.9955,2000
+arima_fourier,Rain-only weeks,9,1.4373,0.987,1.9655,0.0305,1998
+arima_fourier,Diesel-only weeks,22,0.8726,0.7268,0.9658,0.9975,2000
+sarimax,All weeks,90,1.0211,0.9671,1.1156,0.229,2000
+sarimax,Normal target week,57,1.1189,1.0478,1.1909,0.0015,2000
+sarimax,Shock target week,33,0.9884,0.9241,1.1022,0.6185,2000
+sarimax,Gate state normal,57,1.1588,1.1022,1.2199,0.0,2000
+sarimax,Gate state shock,33,0.9468,0.8675,1.0296,0.9075,2000
+sarimax,Rain-only weeks,9,1.2249,0.9166,1.6408,0.0561,1998
+sarimax,Diesel-only weeks,22,0.9058,0.8069,1.0151,0.965,2000
+xgb,All weeks,90,0.8592,0.8001,0.9081,1.0,2000
+xgb,Normal target week,57,0.7835,0.751,0.8295,1.0,2000
+xgb,Shock target week,33,0.923,0.8518,0.9567,1.0,2000
+xgb,Gate state normal,57,0.7779,0.7456,0.8249,1.0,2000
+xgb,Gate state shock,33,0.9502,0.8971,0.9747,1.0,2000
+xgb,Rain-only weeks,9,0.8968,0.7934,0.963,1.0,1998
+xgb,Diesel-only weeks,22,0.9264,0.841,0.9758,0.9995,2000
+blend50,All weeks,90,1.0106,0.9967,1.0263,0.072,2000
+blend50,Normal target week,57,1.0106,0.9984,1.0249,0.0495,2000
+blend50,Shock target week,33,1.0119,0.9902,1.0436,0.144,2000
+blend50,Gate state normal,57,1.0,1.0,1.0,0.0,2000
+blend50,Gate state shock,33,1.0194,0.9968,1.0649,0.053,2000
+blend50,Rain-only weeks,9,1.0763,1.0293,1.2199,0.0,1998
+blend50,Diesel-only weeks,22,0.9843,0.9555,1.0161,0.8545,2000
+gated_noGA,All weeks,90,1.0091,0.9949,1.0215,0.0985,2000
+gated_noGA,Normal target week,57,1.0019,0.9896,1.0171,0.3835,2000
+gated_noGA,Shock target week,33,1.0143,0.992,1.0289,0.081,2000
+gated_noGA,Gate state normal,57,0.9999,0.9887,1.0142,0.443,2000
+gated_noGA,Gate state shock,33,1.0176,0.997,1.0327,0.044,2000
+gated_noGA,Rain-only weeks,9,1.0048,0.9101,1.0199,0.4484,1998
+gated_noGA,Diesel-only weeks,22,1.0155,0.9875,1.0391,0.095,2000
+gated_P90,All weeks,90,0.9905,0.9782,0.9974,1.0,2000
+gated_P90,Normal target week,57,0.9782,0.9593,0.9946,0.998,2000
+gated_P90,Shock target week,33,0.9983,0.9938,1.0,0.7935,2000
+gated_P90,Gate state normal,57,0.9794,0.962,0.9934,1.0,2000
+gated_P90,Gate state shock,33,1.0,1.0,1.0,0.0,2000
+gated_P90,Rain-only weeks,9,0.9969,0.9827,1.0072,0.6091,1998
+gated_P90,Diesel-only weeks,22,0.9992,0.9972,1.0,0.4095,2000

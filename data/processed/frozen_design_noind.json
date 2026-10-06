@@ -1,0 +1,129 @@
+{
+ "frozen_at": "2026-10-03T19:40:53",
+ "series": "noind",
+ "split": {
+  "n_train_weeks": 357,
+  "n_test_weeks": 90
+ },
+ "gate": {
+  "rain_P95_mm": 125.44,
+  "diesel_abs_pct_P95": 5.919598732631459
+ },
+ "alpha": {
+  "shock": {
+   "a1_sarimax": 1.0,
+   "a2_xgb": 0.0
+  },
+  "normal": {
+   "a1_sarimax": 1.0,
+   "a2_xgb": 0.0
+  }
+ },
+ "sarimax_orders": {
+  "Ampalaya": [
+   4,
+   1,
+   3
+  ],
+  "Cabbage": [
+   4,
+   1,
+   3
+  ],
+  "Carrot": [
+   4,
+   1,
+   3
+  ],
+  "Eggplant": [
+   4,
+   1,
+   3
+  ],
+  "Native garlic": [
+   4,
+   1,
+   3
+  ],
+  "Patola": [
+   4,
+   1,
+   3
+  ],
+  "Red onion": [
+   3,
+   1,
+   3
+  ],
+  "Squash": [
+   4,
+   1,
+   3
+  ],
+  "Tomato": [
+   4,
+   0,
+   3
+  ],
+  "Upo": [
+   4,
+   1,
+   3
+  ]
+ },
+ "sarimax_exog": [
+  "sin1",
+  "cos1",
+  "sin2",
+  "cos2",
+  "rain_sum_L1",
+  "diesel_pct_L1",
+  "cpi_veg_mom_L1m"
+ ],
+ "xgboost": {
+  "params": {
+   "max_depth": 5,
+   "learning_rate": 0.0436823602247713,
+   "min_child_weight": 3,
+   "subsample": 0.9724944942760407,
+   "colsample_bytree": 0.47184015310067373,
+   "reg_lambda": 0.7701528769808867,
+   "reg_alpha": 0.0021107315616339787,
+   "gamma": 0.5
+  },
+  "n_estimators": 20,
+  "features": [
+   "y_L1",
+   "y_L3",
+   "y_L4",
+   "y_L7",
+   "y_L8",
+   "t_mean_L7",
+   "t_mean_L8",
+   "rain_roll4_L6",
+   "diesel_pct_L2",
+   "diesel_pct_L4",
+   "y_roll4_mean",
+   "y_roll4_std",
+   "cpi_veg_mom_L1m",
+   "sin1",
+   "cos1",
+   "sin2",
+   "cos2",
+   "shock_L1"
+  ]
+ },
+ "ga_selected": [
+  "y_L1",
+  "y_L3",
+  "y_L4",
+  "y_L7",
+  "y_L8",
+  "t_mean_L7",
+  "t_mean_L8",
+  "rain_roll4_L6",
+  "diesel_pct_L2",
+  "diesel_pct_L4"
+ ],
+ "note": "GATE G3: design frozen. Do not change after the test set is evaluated."
+}

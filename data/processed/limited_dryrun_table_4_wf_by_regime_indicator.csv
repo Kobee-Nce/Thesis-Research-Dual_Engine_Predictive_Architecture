@@ -1,0 +1,33 @@
+group,model,n_weeks,n_obs,rel_RMSE_vs_naive,MAPE
+All test weeks,naive,2,2,1.0,4.3894
+All test weeks,arima_fourier,2,2,0.157,0.6789
+All test weeks,sarimax,2,2,0.2732,1.1114
+All test weeks,xgb,2,2,0.8276,3.6472
+All test weeks,blend50,2,2,0.5416,2.3793
+All test weeks,gated,2,2,0.5416,2.3793
+All test weeks,gated_noGA,2,2,0.5845,2.5423
+All test weeks,gated_P90,2,2,0.6838,3.0133
+Target week normal (S_t = 0),naive,2,2,1.0,4.3894
+Target week normal (S_t = 0),arima_fourier,2,2,0.157,0.6789
+Target week normal (S_t = 0),sarimax,2,2,0.2732,1.1114
+Target week normal (S_t = 0),xgb,2,2,0.8276,3.6472
+Target week normal (S_t = 0),blend50,2,2,0.5416,2.3793
+Target week normal (S_t = 0),gated,2,2,0.5416,2.3793
+Target week normal (S_t = 0),gated_noGA,2,2,0.5845,2.5423
+Target week normal (S_t = 0),gated_P90,2,2,0.6838,3.0133
+Gate state normal (S_t-1 = 0),naive,2,2,1.0,4.3894
+Gate state normal (S_t-1 = 0),arima_fourier,2,2,0.157,0.6789
+Gate state normal (S_t-1 = 0),sarimax,2,2,0.2732,1.1114
+Gate state normal (S_t-1 = 0),xgb,2,2,0.8276,3.6472
+Gate state normal (S_t-1 = 0),blend50,2,2,0.5416,2.3793
+Gate state normal (S_t-1 = 0),gated,2,2,0.5416,2.3793
+Gate state normal (S_t-1 = 0),gated_noGA,2,2,0.5845,2.5423
+Gate state normal (S_t-1 = 0),gated_P90,2,2,0.6838,3.0133
+Neither trigger,naive,2,2,1.0,4.3894
+Neither trigger,arima_fourier,2,2,0.157,0.6789
+Neither trigger,sarimax,2,2,0.2732,1.1114
+Neither trigger,xgb,2,2,0.8276,3.6472
+Neither trigger,blend50,2,2,0.5416,2.3793
+Neither trigger,gated,2,2,0.5416,2.3793
+Neither trigger,gated_noGA,2,2,0.5845,2.5423
+Neither trigger,gated_P90,2,2,0.6838,3.0133

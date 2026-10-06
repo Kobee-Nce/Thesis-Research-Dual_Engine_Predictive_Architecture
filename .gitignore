@@ -1,23 +1,4 @@
-cat > .gitignore <<'EOF'
 .venv/
 __pycache__/
 *.py[cod]
-.ipynb_checkpoints/
-
-# Raw and generated data
-data/raw/
-data/interim/
-data/processed/
-
-# Generated outputs
-outputs/figures/
-outputs/tables/
-outputs/models/
-outputs/forecasts/
-
-# OS files
 .DS_Store
-
-# VS Code
-.vscode/
-EOF

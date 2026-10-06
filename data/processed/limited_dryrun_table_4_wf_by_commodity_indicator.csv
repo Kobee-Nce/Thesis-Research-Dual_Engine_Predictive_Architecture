@@ -1,0 +1,9 @@
+Commodity,model,n,RMSE,MAE,MAPE
+Tomato,naive,2,3.122,3.1141,4.3894
+Tomato,arima_fourier,2,0.4901,0.4827,0.6789
+Tomato,sarimax,2,0.8528,0.7938,1.1114
+Tomato,xgb,2,2.5838,2.5817,3.6472
+Tomato,blend50,2,1.6909,1.6878,2.3793
+Tomato,gated,2,1.6909,1.6878,2.3793
+Tomato,gated_noGA,2,1.8248,1.8063,2.5423
+Tomato,gated_P90,2,2.1347,2.1347,3.0133

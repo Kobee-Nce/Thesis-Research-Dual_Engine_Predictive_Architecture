@@ -1,0 +1,13 @@
+,value
+pop,24
+generations,20
+tournament,3
+p_crossover,0.8
+p_mutation,0.02
+elitism,2
+patience,6
+init_prob,0.25
+n_seeds,10
+surrogate,XGBoost 40 trees depth 3
+folds,4 x 36 weeks
+encoding,72-bit mask

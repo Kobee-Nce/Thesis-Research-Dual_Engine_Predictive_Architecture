@@ -1,0 +1,3 @@
+regime,n_obs,n_distinct_weeks,alpha1_sarimax,alpha2_xgb,rel_rmse_blend,rel_rmse_sarimax,rel_rmse_xgb,rel_rmse_5050,rel_rmse_naive
+normal,1250,125,0.5,0.5,0.8032,0.9039,0.9641,0.8032,0.9626
+shock,190,19,0.25,0.75,1.0627,1.4607,1.079,1.1311,1.2179

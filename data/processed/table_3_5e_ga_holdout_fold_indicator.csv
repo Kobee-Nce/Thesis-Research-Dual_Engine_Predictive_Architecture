@@ -1,0 +1,6 @@
+,fold4_rmse_std
+GA consensus (folds 1-3 only),0.8319
+All 72 lag features,0.8404
+Price lags only,0.844
+Filter top-15 by |corr|,0.8435
+Naive (zero change),0.9078

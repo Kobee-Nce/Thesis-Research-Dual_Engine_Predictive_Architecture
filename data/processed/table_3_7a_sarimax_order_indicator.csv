@@ -1,0 +1,11 @@
+series,Commodity,p,d,q,AIC,BIC,LB_p,converged,dAIC_next
+indicator,Ampalaya,4,1,3,1294.536,1352.19,0.223,True,0.198
+indicator,Cabbage,4,1,2,1991.831,2045.641,0.793,True,1.99
+indicator,Carrot,4,1,3,1754.846,1812.499,0.337,True,0.286
+indicator,Eggplant,4,1,3,1037.95,1095.603,0.036,True,4.635
+indicator,Native garlic,4,1,3,1987.544,2045.197,0.408,True,0.27
+indicator,Patola,4,1,3,1722.21,1779.863,0.497,True,0.884
+indicator,Red onion,4,1,1,2205.887,2255.853,0.652,True,0.702
+indicator,Squash,4,1,2,1026.016,1079.825,0.852,True,0.136
+indicator,Tomato,3,0,3,1309.672,1367.369,0.138,True,0.573
+indicator,Upo,4,1,1,838.771,888.737,0.075,True,1.758
