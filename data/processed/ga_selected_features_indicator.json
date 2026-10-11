@@ -1,0 +1,38 @@
+{
+ "series": "indicator",
+ "selected_lag_features": [
+  "y_L1",
+  "y_L3",
+  "y_L4",
+  "y_L8",
+  "rain_sum_L1",
+  "rain_sum_L4",
+  "rain_max_L2",
+  "wind_max_L3",
+  "t_max_L8",
+  "t_min_L4",
+  "diesel_pct_L2",
+  "diesel_pct_L8"
+ ],
+ "fixed_features": [
+  "y_roll4_mean",
+  "y_roll4_std",
+  "cpi_veg_mom_L1m",
+  "sin1",
+  "cos1",
+  "sin2",
+  "cos2",
+  "shock_L1"
+ ],
+ "ga": {
+  "pop": 24,
+  "generations": 20,
+  "tournament": 3,
+  "p_crossover": 0.8,
+  "p_mutation": 0.02,
+  "elitism": 2,
+  "patience": 6,
+  "init_prob": 0.25,
+  "n_seeds": 10
+ }
+}

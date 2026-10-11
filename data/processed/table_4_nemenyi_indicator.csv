@@ -1,0 +1,16 @@
+model_a,model_b,rank_diff,significant_0_05
+naive,arima_fourier,1.6,False
+naive,sarimax,3.5,True
+naive,xgb,1.1,False
+naive,blend50,3.7,True
+naive,gated,3.9,True
+arima_fourier,sarimax,1.9,False
+arima_fourier,xgb,-0.5,False
+arima_fourier,blend50,2.1,False
+arima_fourier,gated,2.3,False
+sarimax,xgb,-2.4,True
+sarimax,blend50,0.2,False
+sarimax,gated,0.4,False
+xgb,blend50,2.6,True
+xgb,gated,2.8,True
+blend50,gated,0.2,False

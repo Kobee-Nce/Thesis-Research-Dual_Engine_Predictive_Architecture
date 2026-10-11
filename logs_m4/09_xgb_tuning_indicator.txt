@@ -1,0 +1,41 @@
+20 features (12 GA-selected + 8 structural)
+  config  0/60  mean rel-RMSE 0.9703  (0s)
+  config 10/60  mean rel-RMSE 0.9744  (5s)
+  config 20/60  mean rel-RMSE 0.9613  (8s)
+  config 30/60  mean rel-RMSE 0.9706  (12s)
+  config 40/60  mean rel-RMSE 0.9736  (16s)
+  config 50/60  mean rel-RMSE 0.9661  (21s)
+  config 60/60  mean rel-RMSE 0.9692  (25s)
+
+BEST: {'max_depth': 5, 'learning_rate': 0.0436823602247713, 'min_child_weight': 3, 'subsample': 0.9724944942760407, 'colsample_bytree': 0.47184015310067373, 'reg_lambda': 0.7701528769808867, 'reg_alpha': 0.0021107315616339787, 'gamma': 0.5} | trees: 20
+CV mean rel-RMSE: tuned 0.9542 | default 0.9703 | naive = 1.0
+               tuned  default
+Ampalaya       0.998    1.010
+Cabbage        0.914    0.912
+Carrot         0.959    0.966
+Eggplant       1.010    1.010
+Native garlic  1.084    1.123
+Patola         0.890    0.900
+Red onion      0.906    0.942
+Squash         0.989    0.992
+Tomato         0.792    0.856
+Upo            1.000    0.990
+26s
+       26.44 real        25.85 user         2.00 sys
+           230178816  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               44367  page reclaims
+                  80  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+              270037  involuntary context switches
+        511357882388  instructions retired
+        110366522676  cycles elapsed
+           171639624  peak memory footprint

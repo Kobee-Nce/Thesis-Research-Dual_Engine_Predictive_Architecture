@@ -1,0 +1,5 @@
+Apple M1
+8589934592
+ProductName:		macOS
+ProductVersion:		27.0.1
+BuildVersion:		26A434

@@ -1,0 +1,9 @@
+[indicator] error diagnostics (counts are out of 10 commodities; e = actual - forecast)
+               mean_error_PHP  mean_error_pct  bias_sig_raw  bias_sig_holm  LB_reject_5pct  ARCH_reject_5pct
+model                                                                                                       
+naive                   0.126           0.140             0              0               9                 8
+arima_fourier           0.154           0.163             0              0               6                 9
+sarimax                 0.124           0.127             0              0               5                 7
+xgb                     0.187           0.215             0              0               9                 9
+blend50                 0.155           0.171             0              0               3                 5
+gated                   0.192           0.204             0              0               7                 5

@@ -1,0 +1,64 @@
+PASS SARIMAX grid: 20 candidates per commodity, p<=4, q<=3
+PASS SARIMAX order = lowest-AIC grid row
+PASS frozen design orders = order table
+PASS d in order table = stationarity suggested_d [d=0 for: ['Tomato']]
+PASS search table: 60 sampled + 1 default = 61 rows
+PASS best search row = frozen/xgb_best params
+PASS n_estimators = max(20, median best trees of best config) [median=17 -> 20]
+PASS sampled values inside Table 14 ranges
+PASS tuned CV score vs default (text: 0.954 vs 0.970 for indicator) [0.9542 vs 0.9703]
+PASS XGB features = GA lags + 8 structural terms [12 GA lags]
+PASS frozen XGBoost block = xgb_best
+PASS OOF = 4 folds x 36 contiguous weeks (144) x 10 commodities
+PASS alpha[normal] recomputed from OOF = frozen design [alpha=0.5, weeks=125, obs=1250]
+PASS alpha[shock] recomputed from OOF = frozen design [alpha=0.25, weeks=19, obs=190]
+PASS 900 forecasts = 10 commodities x 90 weeks; first 2024-11-10, last 2026-07-26
+PASS naive forecast = previous week's actual (no leakage in benchmark)
+PASS gated = alpha(S[t-1])*SARIMAX + (1-alpha)*XGB exactly
+PASS blend50 = 0.5*SARIMAX + 0.5*XGB
+PASS gate thresholds recomputed from TRAIN weeks = frozen (125.44 mm, 5.92%)
+PASS shock_L1 in forecasts = recomputed gate shifted by one week
+PASS shock_t counts: 33 shock weeks in test
+PASS run log freeze stamp = frozen design stamp
+PASS all SARIMAX/ARIMA fits accepted [sarimax_how={'fit': 900} arima_how={'fit': 900}]
+PASS relative RMSE (geometric mean over commodities) and pooled MAPE recomputed = saved table
+PASS pooled Diebold-Mariano (HLN) recomputed = saved
+PASS Friedman chi2 and Nemenyi CD (2.384) recomputed = saved [chi2=37.657, CD=2.384]
+PASS moving-block bootstrap (block 4, 2000 reps, seed 20261001) reproduces saved CIs
+PASS monthly-origin evaluation: 20 months; relative RMSE vs PSA-naive recomputed = saved
+PASS GA consensus = features with frequency >= 0.5 and equals frozen list
+PASS GA: 10 seeds, fitness = 1/CV-RMSE, 72 candidates [Jaccard=0.222, total_evals=3014]
+PASS SARIMAX grid: 20 candidates per commodity, p<=4, q<=3
+PASS SARIMAX order = lowest-AIC grid row
+PASS frozen design orders = order table
+PASS d in order table = stationarity suggested_d [d=0 for: ['Tomato']]
+PASS search table: 60 sampled + 1 default = 61 rows
+PASS best search row = frozen/xgb_best params
+PASS n_estimators = max(20, median best trees of best config) [median=10 -> 20]
+PASS sampled values inside Table 14 ranges
+PASS tuned CV score vs default (text: 0.954 vs 0.970 for indicator) [0.9627 vs 0.9812]
+PASS XGB features = GA lags + 8 structural terms [10 GA lags]
+PASS frozen XGBoost block = xgb_best
+PASS OOF = 4 folds x 36 contiguous weeks (144) x 10 commodities
+PASS alpha[normal] recomputed from OOF = frozen design [alpha=1, weeks=125, obs=1250]
+PASS alpha[shock] recomputed from OOF = frozen design [alpha=1, weeks=19, obs=190]
+PASS 900 forecasts = 10 commodities x 90 weeks; first 2024-11-10, last 2026-07-26
+PASS naive forecast = previous week's actual (no leakage in benchmark)
+PASS gated = alpha(S[t-1])*SARIMAX + (1-alpha)*XGB exactly
+PASS blend50 = 0.5*SARIMAX + 0.5*XGB
+PASS gate thresholds recomputed from TRAIN weeks = frozen (125.44 mm, 5.92%)
+PASS shock_L1 in forecasts = recomputed gate shifted by one week
+PASS shock_t counts: 33 shock weeks in test
+PASS run log freeze stamp = frozen design stamp
+PASS all SARIMAX/ARIMA fits accepted [sarimax_how={'fit': 885, 'reused_params': 15} arima_how={'fit': 899, 'reused_params': 1}]
+PASS noind: gated == SARIMAX (alpha=1)
+PASS relative RMSE (geometric mean over commodities) and pooled MAPE recomputed = saved table
+PASS pooled Diebold-Mariano (HLN) recomputed = saved
+PASS Friedman chi2 and Nemenyi CD (2.384) recomputed = saved [chi2=45.588, CD=2.384]
+PASS moving-block bootstrap (block 4, 2000 reps, seed 20261001) reproduces saved CIs
+PASS monthly-origin evaluation: 20 months; relative RMSE vs PSA-naive recomputed = saved
+PASS GA consensus = features with frequency >= 0.5 and equals frozen list
+PASS GA: 10 seeds, fitness = 1/CV-RMSE, 72 candidates [Jaccard=0.211, total_evals=2666]
+PASS RQ1 weekly training-week joint diesel Wald p recomputed = saved [0.0100]
+
+SUMMARY: 62 passed, 0 failed

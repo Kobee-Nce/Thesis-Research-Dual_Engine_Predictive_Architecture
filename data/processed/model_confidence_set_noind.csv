@@ -1,0 +1,11 @@
+loss,model,mean_scaled_loss,MCS_p_TR,MCS_p_Tmax,in_90pct_set,in_75pct_set
+squared,naive,1.0,0.0,0.0,False,False
+squared,arima_fourier,0.1025,1.0,1.0,True,True
+squared,sarimax = gated,0.1025,0.999,0.999,True,True
+squared,xgb,0.7788,0.0,0.0,False,False
+squared,blend50,0.2703,0.0,0.0,False,False
+absolute,naive,1.0,0.0,0.0,False,False
+absolute,arima_fourier,0.3086,1.0,1.0,True,True
+absolute,sarimax = gated,0.3102,0.2502,0.2502,True,True
+absolute,xgb,0.8799,0.0,0.0,False,False
+absolute,blend50,0.5078,0.0,0.0,False,False

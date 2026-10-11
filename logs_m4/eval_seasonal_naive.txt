@@ -1,0 +1,8 @@
+         Model   n  RMSE_pooled  MAE_pooled  MAPE_pooled  rel_RMSE_pooled  rel_RMSE_geomean
+         naive 900        5.586       3.672        3.196            1.000             1.000
+seasonal_naive 900       26.810      18.002       15.631            4.800             4.570
+ arima_fourier 900        4.891       2.890        2.497            0.876             0.840
+       sarimax 900        4.552       2.714        2.344            0.815             0.786
+           xgb 900        5.213       3.378        2.940            0.933             0.934
+       blend50 900        4.457       2.769        2.407            0.798             0.794
+         gated 900        4.450       2.803        2.438            0.797             0.802

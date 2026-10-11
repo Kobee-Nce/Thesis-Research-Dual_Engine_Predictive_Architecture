@@ -1,0 +1,177 @@
+
+### table_3_7a_sarimax_grid_indicator.csv
+  AIC                              cells=    3  max_abs=0.352  max_rel=0.000257
+  BIC                              cells=    3  max_abs=0.352  max_rel=0.000246
+  LB_p                             cells=    3  max_abs=0.001  max_rel=0.00508
+  converged                        cells=    2  (non-numeric)
+      row 161: {'series': 'indicator', 'Commodity': 'Tomato', 'p': '4', 'q': '3'}  False -> True
+      row 168: {'series': 'indicator', 'Commodity': 'Tomato', 'p': '4', 'q': '1'}  True -> False
+
+### table_3_7a_sarimax_grid_noind.csv
+  AIC                              cells=    9  max_abs=0.007  max_rel=1.39e-05
+  BIC                              cells=    9  max_abs=0.008  max_rel=1.26e-05
+  LB_p                             cells=    4  max_abs=0.001  max_rel=0.0286
+  converged                        cells=    1  (non-numeric)
+      row 160: {'series': 'noind', 'Commodity': 'Tomato', 'p': '4', 'q': '3'}  False -> True
+
+### table_3_7a_sarimax_order_indicator.csv
+  dAIC_next                        cells=    1  max_abs=0.001  max_rel=0.00175
+
+### table_3_7a_sarimax_order_noind.csv
+  AIC                              cells=    2  max_abs=0.002  max_rel=2.73e-06
+  BIC                              cells=    1  max_abs=0.002  max_rel=1.54e-06
+  LB_p                             cells=    3  max_abs=0.001  max_rel=0.00546
+  converged                        cells=    1  (non-numeric)
+      row 8: {'series': 'noind', 'Commodity': 'Tomato', 'p': '4', 'q': '3'}  False -> True
+  dAIC_next                        cells=    2  max_abs=0.002  max_rel=0.00117
+
+### table_3_8_alpha_weights_indicator.csv
+  rel_rmse_blend                   cells=    1  max_abs=0.0001  max_rel=9.41e-05
+  rel_rmse_sarimax                 cells=    2  max_abs=0.0001  max_rel=0.000111
+
+### alpha_loss_curve_indicator.csv
+  rel_rmse                         cells=    4  max_abs=0.0001  max_rel=0.000111
+
+### oof_predictions_indicator.csv
+  sarimax                          cells=  829  max_abs=0.00797  max_rel=0.000201
+
+### oof_predictions_noind.csv
+  sarimax                          cells= 1091  max_abs=0.0518  max_rel=0.000307
+
+### wf_forecasts_indicator.csv
+  arima_fourier                    cells=  379  max_abs=0.037  max_rel=0.000232
+  sarimax                          cells=  573  max_abs=0.013  max_rel=0.000139
+  blend50                          cells=  448  max_abs=0.00649  max_rel=6.58e-05
+  gated                            cells=  398  max_abs=0.0037  max_rel=4.57e-05
+  gated_noGA                       cells=  398  max_abs=0.0037  max_rel=4.58e-05
+  gated_P90                        cells=  385  max_abs=0.0037  max_rel=4.57e-05
+
+### wf_forecasts_noind.csv
+  arima_fourier                    cells=  261  max_abs=0.0923  max_rel=0.000533
+  sarimax                          cells=  575  max_abs=0.146  max_rel=0.00137
+  blend50                          cells=  415  max_abs=0.0732  max_rel=0.000642
+  gated                            cells=  575  max_abs=0.146  max_rel=0.00137
+  gated_noGA                       cells=  575  max_abs=0.146  max_rel=0.00137
+  gated_P90                        cells=  575  max_abs=0.146  max_rel=0.00137
+  sarimax_how                      cells=   21  (non-numeric)
+      row 649: {'commodity': 'Squash', 'week_end': '2025-03-23'}  fit -> reused_params
+      row 680: {'commodity': 'Squash', 'week_end': '2025-10-26'}  fit -> reused_params
+      row 722: {'commodity': 'Tomato', 'week_end': '2024-11-24'}  fit -> reused_params
+      row 725: {'commodity': 'Tomato', 'week_end': '2024-12-15'}  fit -> reused_params
+      row 727: {'commodity': 'Tomato', 'week_end': '2024-12-29'}  reused_params -> fit
+      row 728: {'commodity': 'Tomato', 'week_end': '2025-01-05'}  fit -> reused_params
+      row 730: {'commodity': 'Tomato', 'week_end': '2025-01-19'}  fit -> reused_params
+      row 732: {'commodity': 'Tomato', 'week_end': '2025-02-02'}  reused_params -> fit
+      row 735: {'commodity': 'Tomato', 'week_end': '2025-02-23'}  fit -> reused_params
+      row 738: {'commodity': 'Tomato', 'week_end': '2025-03-16'}  fit -> reused_params
+      row 741: {'commodity': 'Tomato', 'week_end': '2025-04-06'}  reused_params -> fit
+      row 742: {'commodity': 'Tomato', 'week_end': '2025-04-13'}  reused_params -> fit
+      row 744: {'commodity': 'Tomato', 'week_end': '2025-04-27'}  reused_params -> fit
+      row 752: {'commodity': 'Tomato', 'week_end': '2025-06-22'}  fit -> reused_params
+      row 754: {'commodity': 'Tomato', 'week_end': '2025-07-06'}  fit -> reused_params
+  sarimax_converged                cells=   21  (non-numeric)
+      row 649: {'commodity': 'Squash', 'week_end': '2025-03-23'}  True -> False
+      row 680: {'commodity': 'Squash', 'week_end': '2025-10-26'}  True -> False
+      row 722: {'commodity': 'Tomato', 'week_end': '2024-11-24'}  True -> False
+      row 725: {'commodity': 'Tomato', 'week_end': '2024-12-15'}  True -> False
+      row 727: {'commodity': 'Tomato', 'week_end': '2024-12-29'}  False -> True
+      row 728: {'commodity': 'Tomato', 'week_end': '2025-01-05'}  True -> False
+      row 730: {'commodity': 'Tomato', 'week_end': '2025-01-19'}  True -> False
+      row 732: {'commodity': 'Tomato', 'week_end': '2025-02-02'}  False -> True
+      row 735: {'commodity': 'Tomato', 'week_end': '2025-02-23'}  True -> False
+      row 738: {'commodity': 'Tomato', 'week_end': '2025-03-16'}  True -> False
+      row 741: {'commodity': 'Tomato', 'week_end': '2025-04-06'}  False -> True
+      row 742: {'commodity': 'Tomato', 'week_end': '2025-04-13'}  False -> True
+      row 744: {'commodity': 'Tomato', 'week_end': '2025-04-27'}  False -> True
+      row 752: {'commodity': 'Tomato', 'week_end': '2025-06-22'}  True -> False
+      row 754: {'commodity': 'Tomato', 'week_end': '2025-07-06'}  True -> False
+  arima_how                        cells=    1  (non-numeric)
+      row 729: {'commodity': 'Tomato', 'week_end': '2025-01-12'}  reused_params -> fit
+  arima_converged                  cells=    1  (non-numeric)
+      row 729: {'commodity': 'Tomato', 'week_end': '2025-01-12'}  False -> True
+
+### wf_monthly_indicator.csv
+  arima_fourier                    cells=   86  max_abs=0.0187  max_rel=0.000242
+  sarimax                          cells=  128  max_abs=0.0094  max_rel=9.66e-05
+  blend50                          cells=  108  max_abs=0.0047  max_rel=4.74e-05
+  gated                            cells=   97  max_abs=0.0038  max_rel=3.37e-05
+
+### wf_monthly_noind.csv
+  arima_fourier                    cells=   68  max_abs=0.0176  max_rel=9.6e-05
+  sarimax                          cells=  124  max_abs=0.0472  max_rel=0.000672
+  blend50                          cells=   92  max_abs=0.0236  max_rel=0.000336
+  gated                            cells=  124  max_abs=0.0472  max_rel=0.000672
+
+### table_4_bootstrap_indicator.csv
+  ratio_gated_over_benchmark       cells=    4  max_abs=0.0002  max_rel=0.000139
+  ci95_low                         cells=   10  max_abs=0.0002  max_rel=0.000203
+  ci95_high                        cells=    8  max_abs=0.0001  max_rel=0.000104
+  prob_gated_better                cells=    6  max_abs=0.001  max_rel=0.00427
+
+### table_4_bootstrap_noind.csv
+  ratio_gated_over_benchmark       cells=   19  max_abs=0.0007  max_rel=0.000715
+  ci95_low                         cells=   20  max_abs=0.0011  max_rel=0.00186
+  ci95_high                        cells=   21  max_abs=0.001  max_rel=0.000995
+  prob_gated_better                cells=    8  max_abs=0.0155  max_rel=0.123
+
+### table_4_dftc_indicator.csv
+  sign_agreement                   cells=    1  max_abs=0.013  max_rel=0.0222
+
+### table_4_dftc_noind.csv
+  corr_with_DFTC_change            cells=    2  max_abs=0.001  max_rel=0.00193
+
+### table_4_dm_indicator.csv
+  mean_sq_err_diff                 cells=   63  max_abs=0.00446  max_rel=0.00428
+  DM_HLN                           cells=   72  max_abs=0.00113  max_rel=0.00379
+  p_value                          cells=   52  max_abs=0.00085  max_rel=0.00629
+  p_holm_over_commodities          cells=   27  max_abs=0.00027  max_rel=0.00206
+
+### table_4_dm_noind.csv
+  mean_sq_err_diff                 cells=   43  max_abs=0.00951  max_rel=3e+07
+  DM_HLN                           cells=   42  max_abs=0.569  max_rel=18.5
+  p_value                          cells=   15  max_abs=0.115  max_rel=2.16
+  gated_better                     cells=    1  (non-numeric)
+      row 21: {'benchmark': 'arima_fourier', 'scope': 'POOLED (weeks)'}  False -> True
+  p_holm_over_commodities          cells=    6  max_abs=0.467  max_rel=0.877
+
+### table_4_wf_by_commodity_indicator.csv
+  RMSE                             cells=   27  max_abs=0.0005  max_rel=0.000103
+  MAE                              cells=   27  max_abs=0.0004  max_rel=0.000125
+  MAPE                             cells=   25  max_abs=0.0005  max_rel=0.000141
+
+### table_4_wf_by_commodity_noind.csv
+  RMSE                             cells=   31  max_abs=0.0031  max_rel=0.00172
+  MAE                              cells=   34  max_abs=0.0028  max_rel=0.00199
+  MAPE                             cells=   34  max_abs=0.003  max_rel=0.00196
+
+### table_4_wf_by_regime_indicator.csv
+  rel_RMSE_vs_naive                cells=   11  max_abs=0.0002  max_rel=0.000162
+  MAPE                             cells=   26  max_abs=0.001  max_rel=0.000252
+
+### table_4_wf_by_regime_noind.csv
+  rel_RMSE_vs_naive                cells=   27  max_abs=0.0003  max_rel=0.00169
+  MAPE                             cells=   47  max_abs=0.0006  max_rel=0.000796
+
+### table_4_wf_monthly_by_commodity_indicator.csv
+  RMSE                             cells=   22  max_abs=0.0011  max_rel=8.42e-05
+  MAE                              cells=   27  max_abs=0.0006  max_rel=6.58e-05
+  MAPE                             cells=   29  max_abs=0.0005  max_rel=6.13e-05
+  rel_RMSE_vs_psa_naive            cells=    4  max_abs=0.0001  max_rel=0.000103
+
+### table_4_wf_monthly_by_commodity_noind.csv
+  RMSE                             cells=   25  max_abs=0.0012  max_rel=5.29e-05
+  MAE                              cells=   21  max_abs=0.0025  max_rel=0.000165
+  MAPE                             cells=   29  max_abs=0.0042  max_rel=0.000257
+  rel_RMSE_vs_psa_naive            cells=    7  max_abs=0.0001  max_rel=0.000112
+
+### table_4_wf_monthly_summary_indicator.csv
+  MAPE_mean                        cells=    1  max_abs=0.0001  max_rel=1.05e-05
+
+### table_4_wf_monthly_summary_noind.csv
+  rel_RMSE_vs_psa_naive_gmean      cells=    1  max_abs=0.0001  max_rel=0.0001
+  MAPE_mean                        cells=    4  max_abs=0.0005  max_rel=5.95e-05
+
+### xgb_best_indicator.json
+  cv_mean_rel_rmse_tuned: 0.9541928088892879 -> 0.9541928088892877
+
+Largest absolute difference in any table_* file: 0.569

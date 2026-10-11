@@ -1,0 +1,76 @@
+[indicator] TEST SET: 900 forecasts, 90 weeks, 33 shock weeks
+
+(A) Pooled-week Diebold-Mariano: gated vs benchmark (negative mean diff = gated better)
+    benchmark  mean_sq_err_diff  DM_HLN  p_value
+        naive           -0.3358 -8.1081   0.0000
+arima_fourier           -0.1088 -1.5414   0.1268
+      sarimax           -0.0044 -0.0844   0.9330
+          xgb           -0.2114 -7.6407   0.0000
+      blend50            0.0075  0.5129   0.6093
+   gated_noGA            0.0110  1.2022   0.2325
+    gated_P90           -0.0116 -2.2640   0.0260
+
+(B) Friedman: {'chi2': 37.657, 'p': 0.0, 'CD': 2.384}
+        model  avg_rank  wins
+        naive       5.8     0
+arima_fourier       4.2     0
+      sarimax       2.3     3
+          xgb       4.7     0
+      blend50       2.1     1
+        gated       1.9     6
+
+(C) Bootstrap, gated/benchmark RMSE ratio vs naive and sarimax:
+benchmark             subset  n_weeks  ratio_gated_over_benchmark  ci95_low  ci95_high  prob_gated_better  valid_resamples
+    naive          All weeks       90                       0.802     0.721      0.871              1.000             2000
+    naive Normal target week       57                       0.689     0.657      0.734              1.000             2000
+    naive  Shock target week       33                       0.914     0.821      0.961              1.000             2000
+    naive  Gate state normal       57                       0.712     0.669      0.778              1.000             2000
+    naive   Gate state shock       33                       0.912     0.811      0.959              1.000             2000
+    naive    Rain-only weeks        9                       0.888     0.745      0.966              0.998             1998
+    naive  Diesel-only weeks       22                       0.904     0.788      0.971              1.000             2000
+  sarimax          All weeks       90                       1.021     0.967      1.116              0.229             2000
+  sarimax Normal target week       57                       1.119     1.048      1.191              0.002             2000
+  sarimax  Shock target week       33                       0.988     0.924      1.102              0.618             2000
+  sarimax  Gate state normal       57                       1.159     1.102      1.220              0.000             2000
+  sarimax   Gate state shock       33                       0.947     0.868      1.030              0.908             2000
+  sarimax    Rain-only weeks        9                       1.225     0.917      1.641              0.056             1998
+  sarimax  Diesel-only weeks       22                       0.906     0.807      1.015              0.965             2000
+
+(D) RQ1 (joint Wald tests):
+                      sample                         term  p_value   n
+      weekly, training weeks   JOINT rain lags = 0 (Wald)   0.8910 354
+      weekly, training weeks JOINT diesel lags = 0 (Wald)   0.0100 354
+         weekly, full sample   JOINT rain lags = 0 (Wald)   0.9419 444
+         weekly, full sample JOINT diesel lags = 0 (Wald)   0.0410 444
+monthly PSA, training months   JOINT rain lags = 0 (Wald)   0.2073  81
+monthly PSA, training months JOINT diesel lags = 0 (Wald)   0.3142  81
+    monthly PSA, full sample   JOINT rain lags = 0 (Wald)   0.5204 102
+    monthly PSA, full sample JOINT diesel lags = 0 (Wald)   0.0120 102
+
+(E) DFTC real-data check, mean correlation of predicted vs real weekly change:
+series
+blend50                 0.144
+gated                   0.141
+reconstructed target    0.163
+sarimax                 0.148
+xgb                     0.066
+
+Saved tables to /Users/charlesandrewsolano/Documents/Thesis_verify/data/processed
+        4.21 real         3.37 user         0.27 sys
+           232669184  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               37244  page reclaims
+                2821  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                2587  voluntary context switches
+                2021  involuntary context switches
+         42239658719  instructions retired
+         11384569318  cycles elapsed
+           180962096  peak memory footprint

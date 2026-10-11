@@ -1,0 +1,20 @@
+Weeks: 447 | train 357 (2018-01-07..2024-11-03) | test 90 (2024-11-10..2026-07-26)
+Diesel: 45 of 447 weeks filled (train 39, test 6)
+        0.31 real         0.27 user         0.03 sys
+           113655808  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               12937  page reclaims
+                 140  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   2  voluntary context switches
+                  67  involuntary context switches
+          4442280780  instructions retired
+          1318067746  cycles elapsed
+            71582320  peak memory footprint

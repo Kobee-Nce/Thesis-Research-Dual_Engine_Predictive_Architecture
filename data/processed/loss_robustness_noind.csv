@@ -1,0 +1,15 @@
+loss,benchmark,pooled_mean_loss_diff,pooled_DM_HLN,pooled_p,commodities_gated_lower,commodities_sig_holm,Wilcoxon_p_log_ratio,median_log_ratio
+squared,naive,-0.8975,-10.2444,0.0,10,10,0.002,-1.1382
+squared,arima_fourier,0.0,0.0012,0.999,5,0,0.7695,0.0013
+squared,sarimax,0.0,,,0,0,1.0,0.0
+squared,xgb,-0.6763,-9.2196,0.0,10,10,0.002,-1.0086
+squared,blend50,-0.1678,-5.7366,0.0,10,9,0.002,-0.483
+squared,gated_noGA,0.0,,,0,0,1.0,0.0
+squared,gated_P90,0.0,,,0,0,1.0,0.0
+absolute,naive,-0.6898,-17.943,0.0,10,10,0.002,-1.157
+absolute,arima_fourier,0.0016,0.8994,0.3709,4,0,0.2324,0.0066
+absolute,sarimax,0.0,,,0,0,1.0,0.0
+absolute,xgb,-0.5697,-15.5386,0.0,10,10,0.002,-1.0526
+absolute,blend50,-0.1975,-7.2055,0.0,10,10,0.002,-0.4986
+absolute,gated_noGA,0.0,,,0,0,1.0,0.0
+absolute,gated_P90,0.0,,,0,0,1.0,0.0

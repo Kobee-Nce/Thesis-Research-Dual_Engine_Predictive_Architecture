@@ -1,0 +1,8 @@
+model,n_months,rel_RMSE_vs_psa_naive_gmean,MAPE_mean
+psa_naive,20,1.0,8.3638
+causal_weekly_naive,20,0.9996,8.5166
+arima_fourier,20,0.9974,8.4107
+sarimax,20,0.9976,8.4027
+xgb,20,0.9968,8.5051
+blend50,20,0.9951,8.4323
+gated,20,0.9976,8.4027

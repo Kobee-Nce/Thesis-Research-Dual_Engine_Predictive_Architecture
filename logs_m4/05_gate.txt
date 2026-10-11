@@ -1,0 +1,34 @@
+Transition matrix (train, 356 transitions):
+            from  to_normal_n  to_shock_n  to_normal_p  to_shock_p  from_weeks
+Normal (S_t-1=0)          293          29        0.910       0.090         322
+ Shock (S_t-1=1)           29           5        0.853       0.147          34
+Transition matrix (test, 89 transitions):
+            from  to_normal_n  to_shock_n  to_normal_p  to_shock_p  from_weeks
+Normal (S_t-1=0)           41          15        0.732       0.268          56
+ Shock (S_t-1=1)           15          18        0.455       0.545          33
+Rain-only / diesel-only / both in test: 9 22 2
+Percentile        Trigger        Threshold  Total  Train  Test
+       P95           Rain            125.4     29     18    11
+       P95         Diesel             5.92     42     18    24
+       P95 Rain OR Diesel 125.4 mm / 5.92%     67     34    33
+       P90           Rain            110.5     50     36    14
+       P90         Diesel             4.75     66     36    30
+       P90 Rain OR Diesel 110.5 mm / 4.75%    104     62    42
+        0.23 real         0.20 user         0.02 sys
+           101089280  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               11925  page reclaims
+                  78  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                  44  involuntary context switches
+          2957181272  instructions retired
+           977733249  cycles elapsed
+            60719728  peak memory footprint

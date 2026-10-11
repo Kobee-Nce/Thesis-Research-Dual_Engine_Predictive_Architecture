@@ -1,0 +1,78 @@
+benchmark,scope,n,mean_sq_err_diff,DM_HLN,p_value,gated_better,p_holm_over_commodities
+naive,Ampalaya,90,-7.62063,-4.98082,0.0,True,2e-05
+naive,Cabbage,90,-7.39482,-6.30025,0.0,True,0.0
+naive,Carrot,90,-28.58908,-6.50258,0.0,True,0.0
+naive,Eggplant,90,-6.85676,-5.82062,0.0,True,0.0
+naive,Native garlic,90,-7.21114,-5.2356,0.0,True,1e-05
+naive,Patola,90,-4.16561,-3.59998,0.00052,True,0.00052
+naive,Red onion,90,-70.55854,-4.07087,0.0001,True,0.0003
+naive,Squash,90,-4.11594,-4.24434,5e-05,True,0.00021
+naive,Tomato,90,-35.18135,-5.38149,0.0,True,0.0
+naive,Upo,90,-1.3277,-3.97915,0.00014,True,0.0003
+naive,POOLED (weeks),90,-0.89753,-10.24441,0.0,True,
+arima_fourier,Ampalaya,90,-0.01941,-0.811,0.41953,True,1.0
+arima_fourier,Cabbage,90,0.02526,0.85177,0.39663,False,1.0
+arima_fourier,Carrot,90,0.08001,0.60543,0.54643,False,1.0
+arima_fourier,Eggplant,90,-0.01016,-0.70536,0.48243,True,1.0
+arima_fourier,Native garlic,90,-0.0022,-0.03564,0.97165,True,1.0
+arima_fourier,Patola,90,0.00376,0.28874,0.77345,False,1.0
+arima_fourier,Red onion,90,-0.38544,-1.48551,0.14094,True,1.0
+arima_fourier,Squash,90,0.00389,0.86322,0.39034,False,1.0
+arima_fourier,Tomato,90,0.07058,1.95871,0.05328,False,0.53278
+arima_fourier,Upo,90,-0.00064,-0.15319,0.87859,True,1.0
+arima_fourier,POOLED (weeks),90,0.0,0.00121,0.99903,False,
+sarimax,Ampalaya,90,0.0,,,False,1.0
+sarimax,Cabbage,90,0.0,,,False,1.0
+sarimax,Carrot,90,0.0,,,False,1.0
+sarimax,Eggplant,90,0.0,,,False,1.0
+sarimax,Native garlic,90,0.0,,,False,1.0
+sarimax,Patola,90,0.0,,,False,1.0
+sarimax,Red onion,90,0.0,,,False,1.0
+sarimax,Squash,90,0.0,,,False,1.0
+sarimax,Tomato,90,0.0,,,False,1.0
+sarimax,Upo,90,0.0,,,False,1.0
+sarimax,POOLED (weeks),90,0.0,,,False,
+xgb,Ampalaya,90,-6.18709,-4.68502,1e-05,True,5e-05
+xgb,Cabbage,90,-4.77701,-6.16388,0.0,True,0.0
+xgb,Carrot,90,-21.05641,-6.20979,0.0,True,0.0
+xgb,Eggplant,90,-4.78008,-5.86045,0.0,True,0.0
+xgb,Native garlic,90,-6.93809,-4.9421,0.0,True,2e-05
+xgb,Patola,90,-3.62131,-3.17622,0.00205,True,0.00205
+xgb,Red onion,90,-50.81624,-3.92806,0.00017,True,0.00051
+xgb,Squash,90,-3.31914,-4.01825,0.00012,True,0.00049
+xgb,Tomato,90,-20.35584,-5.33188,0.0,True,1e-05
+xgb,Upo,90,-0.951,-3.74461,0.00032,True,0.00064
+xgb,POOLED (weeks),90,-0.6763,-9.2196,0.0,True,
+blend50,Ampalaya,90,-1.45117,-2.95331,0.00402,True,0.0201
+blend50,Cabbage,90,-1.31544,-4.5792,2e-05,True,0.00014
+blend50,Carrot,90,-5.87347,-4.85807,1e-05,True,5e-05
+blend50,Eggplant,90,-1.27104,-4.01098,0.00013,True,0.00099
+blend50,Native garlic,90,-1.92553,-4.0141,0.00012,True,0.00099
+blend50,Patola,90,-0.94818,-2.62918,0.01008,True,0.04033
+blend50,Red onion,90,-9.7293,-1.92857,0.05697,True,0.05697
+blend50,Squash,90,-0.76829,-2.51758,0.01361,True,0.04082
+blend50,Tomato,90,-4.54569,-3.48138,0.00078,True,0.00465
+blend50,Upo,90,-0.21809,-2.4475,0.01635,True,0.04082
+blend50,POOLED (weeks),90,-0.16782,-5.73656,0.0,True,
+gated_noGA,Ampalaya,90,0.0,,,False,1.0
+gated_noGA,Cabbage,90,0.0,,,False,1.0
+gated_noGA,Carrot,90,0.0,,,False,1.0
+gated_noGA,Eggplant,90,0.0,,,False,1.0
+gated_noGA,Native garlic,90,0.0,,,False,1.0
+gated_noGA,Patola,90,0.0,,,False,1.0
+gated_noGA,Red onion,90,0.0,,,False,1.0
+gated_noGA,Squash,90,0.0,,,False,1.0
+gated_noGA,Tomato,90,0.0,,,False,1.0
+gated_noGA,Upo,90,0.0,,,False,1.0
+gated_noGA,POOLED (weeks),90,0.0,,,False,
+gated_P90,Ampalaya,90,0.0,,,False,1.0
+gated_P90,Cabbage,90,0.0,,,False,1.0
+gated_P90,Carrot,90,0.0,,,False,1.0
+gated_P90,Eggplant,90,0.0,,,False,1.0
+gated_P90,Native garlic,90,0.0,,,False,1.0
+gated_P90,Patola,90,0.0,,,False,1.0
+gated_P90,Red onion,90,0.0,,,False,1.0
+gated_P90,Squash,90,0.0,,,False,1.0
+gated_P90,Tomato,90,0.0,,,False,1.0
+gated_P90,Upo,90,0.0,,,False,1.0
+gated_P90,POOLED (weeks),90,0.0,,,False,

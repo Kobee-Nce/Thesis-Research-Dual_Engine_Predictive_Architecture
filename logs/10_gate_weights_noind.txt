@@ -1,0 +1,32 @@
+  Ampalaya done (2s)
+  Cabbage done (3s)
+  Carrot done (5s)
+  Eggplant done (6s)
+  Native garlic done (8s)
+  Patola done (9s)
+  Red onion done (11s)
+  Squash done (14s)
+  Tomato done (17s)
+  Upo done (20s)
+regime  n_obs  n_distinct_weeks  alpha1_sarimax  alpha2_xgb  rel_rmse_blend  rel_rmse_sarimax  rel_rmse_xgb  rel_rmse_5050  rel_rmse_naive
+normal   1250               125             1.0         0.0          0.3331            0.3331        1.0363         0.5911          1.0042
+ shock    190                19             1.0         0.0          0.3702            0.3702        0.9853         0.5722          0.9716
+alpha: {'normal': 1.0, 'shock': 1.0} | 20s
+       22.11 real        21.48 user         0.27 sys
+           230359040  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               48921  page reclaims
+                 517  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                2163  voluntary context switches
+                2825  involuntary context switches
+        339241953418  instructions retired
+         68190066389  cycles elapsed
+           170804088  peak memory footprint

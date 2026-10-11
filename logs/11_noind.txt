@@ -1,0 +1,66 @@
+[noind] mode=TEST SET | rows/commodity 436 | evaluation weeks 90 | alpha P95 {0: 1.0, 1: 1.0} | alpha P90 {0: 1.0, 1: 1.0}
+  Ampalaya: 90 weeks done (85s)
+  Cabbage: 90 weeks done (161s)
+  Carrot: 90 weeks done (233s)
+  Eggplant: 90 weeks done (313s)
+  Native garlic: 90 weeks done (386s)
+  Patola: 90 weeks done (465s)
+  Red onion: 90 weeks done (522s)
+  Squash: 90 weeks done (646s)
+  Tomato: 90 weeks done (780s)
+  Upo: 90 weeks done (905s)
+
+Relative RMSE vs naive (geometric mean over commodities; <1 beats naive) and pooled MAPE:
+group          All test weeks  Target week normal (S_t = 0)  Target week shock (S_t = 1)
+model                                                                                   
+naive                   1.000                         1.000                        1.000
+arima_fourier           0.319                         0.319                        0.336
+sarimax                 0.319                         0.322                        0.332
+xgb                     0.879                         0.861                        0.933
+blend50                 0.517                         0.506                        0.543
+gated                   0.319                         0.322                        0.332
+gated_noGA              0.319                         0.322                        0.332
+gated_P90               0.319                         0.322                        0.332
+
+SARIMAX/ARIMA fit outcomes: {'fit': 885, 'reused_params': 15} {'fit': 899, 'reused_params': 1} | non-converged: 15 1
+
+Leak-free monthly-origin evaluation ...
+  monthly Ampalaya: done (18s)
+  monthly Cabbage: done (35s)
+  monthly Carrot: done (51s)
+  monthly Eggplant: done (67s)
+  monthly Native garlic: done (83s)
+  monthly Patola: done (99s)
+  monthly Red onion: done (111s)
+  monthly Squash: done (139s)
+  monthly Tomato: done (169s)
+  monthly Upo: done (197s)
+              model  n_months  rel_RMSE_vs_psa_naive_gmean  MAPE_mean
+          psa_naive        20                        1.000      8.364
+causal_weekly_naive        20                        1.000      8.517
+      arima_fourier        20                        0.997      8.411
+            sarimax        20                        0.998      8.403
+                xgb        20                        0.997      8.505
+            blend50        20                        0.995      8.432
+              gated        20                        0.998      8.403
+
+Done in 1103s.
+TEST SET HAS NOW BEEN EVALUATED: do not change orders, features, hyperparameters, thresholds or weights.
+     1104.66 real      1102.05 user         1.84 sys
+           304955392  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              385876  page reclaims
+                1118  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                2168  voluntary context switches
+              106770  involuntary context switches
+      18015944102305  instructions retired
+       3454156707487  cycles elapsed
+           308249560  peak memory footprint

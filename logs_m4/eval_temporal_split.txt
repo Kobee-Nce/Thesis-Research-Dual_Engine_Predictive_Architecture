@@ -1,0 +1,17 @@
+Period         geomean 2024-2025  geomean 2026
+Model                                         
+naive                      1.000         1.000
+arima_fourier              0.675         0.963
+sarimax                    0.637         0.898
+xgb                        0.893         0.965
+blend50                    0.706         0.868
+gated                      0.712         0.880
+Period         pooled 2024-2025  pooled 2026
+Model                                       
+naive                     1.000        1.000
+arima_fourier             0.696        0.995
+sarimax                   0.636        0.933
+xgb                       0.875        0.977
+blend50                   0.681        0.879
+gated                     0.683        0.876
+weeks / shock-gate weeks: [{'Period': '2024-2025', 'weeks': 60, 'shock_gate_weeks': 14}, {'Period': '2026', 'weeks': 30, 'shock_gate_weeks': 19}]

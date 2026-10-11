@@ -1,0 +1,81 @@
+Commodity,model,n,RMSE,MAE,MAPE
+Ampalaya,naive,90,3.6642,2.6661,2.4354
+Ampalaya,arima_fourier,90,3.1859,2.1843,2.0026
+Ampalaya,sarimax,90,2.9504,2.0525,1.8899
+Ampalaya,xgb,90,3.3638,2.3926,2.1909
+Ampalaya,blend50,90,2.9146,2.015,1.8575
+Ampalaya,gated,90,2.9387,2.068,1.9024
+Ampalaya,gated_noGA,90,2.9949,2.1241,1.951
+Ampalaya,gated_P90,90,2.9696,2.0962,1.926
+Cabbage,naive,90,4.9527,4.1748,4.1594
+Cabbage,arima_fourier,90,5.0604,4.0093,3.9673
+Cabbage,sarimax,90,4.6061,3.5939,3.5427
+Cabbage,xgb,90,4.7516,3.9478,3.9462
+Cabbage,blend50,90,4.5525,3.6731,3.6421
+Cabbage,gated,90,4.5477,3.705,3.6763
+Cabbage,gated_noGA,90,4.501,3.7084,3.6743
+Cabbage,gated_P90,90,4.5626,3.7304,3.7035
+Carrot,naive,90,6.3128,4.8171,3.2952
+Carrot,arima_fourier,90,4.8355,3.2012,2.1316
+Carrot,sarimax,90,4.4939,3.0804,2.024
+Carrot,xgb,90,5.8212,4.3296,2.8941
+Carrot,blend50,90,4.7851,3.3679,2.2261
+Carrot,gated,90,4.9612,3.5081,2.3227
+Carrot,gated_noGA,90,4.9678,3.5339,2.3431
+Carrot,gated_P90,90,4.9827,3.5426,2.3489
+Eggplant,naive,90,3.161,2.4039,2.493
+Eggplant,arima_fourier,90,2.5735,1.7218,1.8155
+Eggplant,sarimax,90,2.4609,1.6678,1.7618
+Eggplant,xgb,90,2.841,2.1089,2.1925
+Eggplant,blend50,90,2.4103,1.7273,1.8102
+Eggplant,gated,90,2.3734,1.6901,1.7684
+Eggplant,gated_noGA,90,2.3095,1.6477,1.7216
+Eggplant,gated_P90,90,2.4084,1.7138,1.7901
+Native garlic,naive,90,4.2489,3.4253,1.7656
+Native garlic,arima_fourier,90,4.4491,3.3651,1.7316
+Native garlic,sarimax,90,4.0909,3.0527,1.5703
+Native garlic,xgb,90,4.1858,3.3501,1.727
+Native garlic,blend50,90,3.9019,3.041,1.565
+Native garlic,gated,90,3.8403,3.0183,1.5529
+Native garlic,gated_noGA,90,3.8681,2.9968,1.5427
+Native garlic,gated_P90,90,3.8705,3.0579,1.5735
+Patola,naive,90,3.1163,2.3352,2.5598
+Patola,arima_fourier,90,2.9294,2.2026,2.4404
+Patola,sarimax,90,2.6214,2.0713,2.3162
+Patola,xgb,90,3.0705,2.3392,2.5496
+Patola,blend50,90,2.6837,2.061,2.2726
+Patola,gated,90,2.7897,2.116,2.3177
+Patola,gated_noGA,90,2.6771,2.0582,2.2685
+Patola,gated_P90,90,2.7956,2.1332,2.3378
+Red onion,naive,90,12.1131,8.8597,4.4669
+Red onion,arima_fourier,90,11.4182,7.5023,3.9847
+Red onion,sarimax,90,10.6596,7.1007,3.7559
+Red onion,xgb,90,11.5248,8.2978,4.236
+Red onion,blend50,90,10.0486,6.7013,3.473
+Red onion,gated,90,9.8325,6.6638,3.4377
+Red onion,gated_noGA,90,9.647,6.6542,3.4225
+Red onion,gated_P90,90,9.9986,6.8099,3.5026
+Squash,naive,90,2.6019,1.857,3.4577
+Squash,arima_fourier,90,2.112,1.463,2.7364
+Squash,sarimax,90,2.0272,1.4018,2.6184
+Squash,xgb,90,2.4576,1.8076,3.3839
+Squash,blend50,90,2.0348,1.4445,2.6871
+Squash,gated,90,2.0154,1.4357,2.6786
+Squash,gated_noGA,90,2.0448,1.449,2.6928
+Squash,gated_P90,90,2.0547,1.473,2.7533
+Tomato,naive,90,6.3048,4.8485,5.1658
+Tomato,arima_fourier,90,2.6719,2.0885,2.2965
+Tomato,sarimax,90,2.6225,2.0109,2.1941
+Tomato,xgb,90,5.2078,4.0122,4.3504
+Tomato,blend50,90,3.2655,2.6237,2.8657
+Tomato,gated,90,3.5669,2.7737,3.0259
+Tomato,gated_noGA,90,3.4773,2.6948,2.9365
+Tomato,gated_P90,90,3.6185,2.7976,3.0604
+Upo,naive,90,1.7922,1.3367,2.1614
+Upo,arima_fourier,90,1.7681,1.1579,1.8608
+Upo,sarimax,90,1.672,1.1042,1.7661
+Upo,xgb,90,1.7131,1.1962,1.9339
+Upo,blend50,90,1.5826,1.04,1.6724
+Upo,gated,90,1.5797,1.0518,1.6948
+Upo,gated_noGA,90,1.5648,1.0354,1.671
+Upo,gated_P90,90,1.5827,1.0474,1.6882

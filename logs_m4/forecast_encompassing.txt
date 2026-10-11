@@ -1,0 +1,15 @@
+    Commodity  n  b_SARIMAX  p_SARIMAX  b_XGB  p_XGB  corr_changes  p_SARIMAX_holm  p_XGB_holm
+     Ampalaya 90      0.601      0.000  1.298  0.004         0.619           0.002       0.040
+      Cabbage 90      0.698      0.002  0.483  0.233         0.497           0.005       1.000
+       Carrot 90      0.911      0.000  0.062  0.870         0.614           0.000       1.000
+     Eggplant 90      0.677      0.002  0.451  0.487         0.730           0.005       1.000
+Native garlic 90      0.652      0.001  1.134  0.024        -0.126           0.004       0.194
+       Patola 90      0.980      0.000  1.164  0.002        -0.078           0.000       0.020
+    Red onion 90      0.633      0.000  0.126  0.862         0.613           0.000       1.000
+       Squash 90      0.755      0.000  0.183  0.601         0.553           0.000       1.000
+       Tomato 90      0.886      0.000  0.182  0.465         0.734           0.000       1.000
+          Upo 90      0.565      0.005  0.201  0.784         0.647           0.005       1.000
+
+SARIMAX adds information beyond XGB: 10/10 after Holm | XGB adds information beyond SARIMAX: 2/10 after Holm
+
+Saved: data/processed/forecast_encompassing_changes_indicator.csv

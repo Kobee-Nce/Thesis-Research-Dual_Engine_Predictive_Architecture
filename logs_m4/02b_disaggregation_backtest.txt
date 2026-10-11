@@ -1,0 +1,48 @@
+
+== all months (n=102) ==
+               RMSE_CL  RMSE_CLconst  RMSE_Flat  RMSE_CLrho05  MAPE_CL  MAPE_Flat
+Commodity                                                                        
+Cabbage           6.70          6.40       7.57          6.97     5.56       6.35
+Carrot           14.75          9.00       9.93         14.89     9.57       6.61
+Tomato           12.00         11.16      11.29         11.89    10.04       8.66
+Eggplant          6.05          4.84       5.29          9.42     7.53       5.73
+Ampalaya          7.07          5.06       5.92          7.88     5.90       5.31
+Squash            3.54          3.39       4.07          3.80     6.54       7.28
+Patola            6.41          5.68       5.85         10.64     4.56       3.64
+Upo               3.12          2.39       2.40          4.96     5.93       4.51
+Red onion        23.48         22.17      26.80         27.93     7.58       7.69
+Native garlic    11.06          9.24       9.95         10.58     5.34       4.66
+CL beats Flat on 3 /10 | CL beats CL-const on 0 /10 | CL beats old rho=.5 on 8 /10
+
+== test months (n=20) ==
+               RMSE_CL  RMSE_CLconst  RMSE_Flat  RMSE_CLrho05  MAPE_CL  MAPE_Flat
+Commodity                                                                        
+Cabbage           6.78          5.47       6.22          6.79     5.66       5.45
+Carrot           21.07          8.52      12.19         21.65    10.71       6.87
+Tomato           15.46         14.09      15.43         15.89    12.81      11.42
+Eggplant          7.65          6.66       6.84         13.06     6.98       5.61
+Ampalaya         10.40          7.17       6.66         10.31     6.80       4.93
+Squash            5.96          5.83       6.64          6.16     8.50       9.06
+Patola            4.34          3.38       5.27          9.85     4.05       3.90
+Upo               3.27          2.74       2.31          7.06     4.04       2.92
+Red onion        23.85         20.20      23.11         27.10     8.94       7.60
+Native garlic    12.04          7.04       6.85          9.62     4.79       2.63
+CL beats Flat on 2 /10 | CL beats CL-const on 0 /10 | CL beats old rho=.5 on 8 /10
+        0.69 real         0.61 user         0.05 sys
+           127041536  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               17035  page reclaims
+                  97  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   2  voluntary context switches
+                 533  involuntary context switches
+          8742973491  instructions retired
+          2727016028  cycles elapsed
+            82887328  peak memory footprint

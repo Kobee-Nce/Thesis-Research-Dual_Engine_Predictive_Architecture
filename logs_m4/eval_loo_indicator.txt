@@ -1,0 +1,53 @@
+[indicator] 33 shock-state weeks in 15 episodes
+  episode  1: 2024-12-22 to 2024-12-22  (1 wk)  trigger of the preceding week(s): ['diesel']
+  episode  2: 2025-01-12 to 2025-01-19  (2 wk)  trigger of the preceding week(s): ['diesel', 'rain']
+  episode  3: 2025-03-09 to 2025-03-16  (2 wk)  trigger of the preceding week(s): ['diesel', 'rain']
+  episode  4: 2025-04-20 to 2025-04-20  (1 wk)  trigger of the preceding week(s): ['diesel']
+  episode  5: 2025-05-11 to 2025-05-11  (1 wk)  trigger of the preceding week(s): ['diesel']
+  episode  6: 2025-05-25 to 2025-06-08  (3 wk)  trigger of the preceding week(s): ['rain']
+  episode  7: 2025-07-06 to 2025-07-13  (2 wk)  trigger of the preceding week(s): ['diesel']
+  episode  8: 2025-08-24 to 2025-08-24  (1 wk)  trigger of the preceding week(s): ['diesel']
+  episode  9: 2025-11-16 to 2025-11-16  (1 wk)  trigger of the preceding week(s): ['diesel']
+  episode 10: 2026-01-04 to 2026-01-11  (2 wk)  trigger of the preceding week(s): ['rain']
+  episode 11: 2026-03-01 to 2026-03-08  (2 wk)  trigger of the preceding week(s): ['both', 'diesel']
+  episode 12: 2026-03-22 to 2026-05-31  (11 wk)  trigger of the preceding week(s): ['both', 'diesel', 'rain']
+  episode 13: 2026-06-14 to 2026-06-21  (2 wk)  trigger of the preceding week(s): ['diesel']
+  episode 14: 2026-07-05 to 2026-07-05  (1 wk)  trigger of the preceding week(s): ['diesel']
+  episode 15: 2026-07-26 to 2026-07-26  (1 wk)  trigger of the preceding week(s): ['diesel']
+                    panel    omitted  weeks_kept  ratio_gated_over_sarimax  ratio_gated_over_naive  DM_HLN  p_value
+        A: all test weeks       none          90                     1.021                   0.802  -0.084    0.933
+        A: all test weeks  episode 1          89                     1.022                   0.802  -0.051    0.959
+        A: all test weeks  episode 2          88                     1.025                   0.803   0.019    0.985
+        A: all test weeks  episode 3          88                     1.022                   0.803  -0.059    0.953
+        A: all test weeks  episode 4          89                     1.021                   0.803  -0.084    0.933
+        A: all test weeks  episode 5          89                     1.024                   0.802  -0.070    0.945
+        A: all test weeks  episode 6          87                     1.018                   0.801  -0.124    0.901
+        A: all test weeks  episode 7          88                     1.022                   0.802  -0.084    0.933
+        A: all test weeks  episode 8          89                     1.018                   0.802  -0.159    0.874
+        A: all test weeks  episode 9          89                     1.023                   0.801  -0.041    0.967
+        A: all test weeks episode 10          88                     1.019                   0.803  -0.100    0.920
+        A: all test weeks episode 11          88                     1.025                   0.802   0.008    0.994
+        A: all test weeks episode 12          79                     1.104                   0.736   1.861    0.067
+        A: all test weeks episode 13          88                     1.027                   0.799   0.024    0.981
+        A: all test weeks episode 14          89                     1.017                   0.802  -0.131    0.896
+        A: all test weeks episode 15          89                     1.022                   0.802  -0.057    0.955
+B: shock-state weeks only       none          33                     0.947                   0.912  -1.311    0.199
+B: shock-state weeks only  episode 1          32                     0.947                   0.913  -1.275    0.212
+B: shock-state weeks only  episode 2          31                     0.953                   0.916  -1.200    0.240
+B: shock-state weeks only  episode 3          31                     0.948                   0.917  -1.284    0.209
+B: shock-state weeks only  episode 4          32                     0.947                   0.915  -1.311    0.199
+B: shock-state weeks only  episode 5          32                     0.950                   0.913  -1.295    0.205
+B: shock-state weeks only  episode 6          30                     0.941                   0.914  -1.359    0.185
+B: shock-state weeks only  episode 7          31                     0.946                   0.916  -1.312    0.199
+B: shock-state weeks only  episode 8          32                     0.941                   0.913  -1.401    0.171
+B: shock-state weeks only  episode 9          32                     0.947                   0.913  -1.264    0.215
+B: shock-state weeks only episode 10          31                     0.941                   0.925  -1.397    0.173
+B: shock-state weeks only episode 11          31                     0.952                   0.914  -1.219    0.232
+B: shock-state weeks only episode 12          22                     0.965                   0.822  -0.745    0.464
+B: shock-state weeks only episode 13          31                     0.952                   0.910  -1.202    0.239
+B: shock-state weeks only episode 14          32                     0.939                   0.918  -1.366    0.182
+B: shock-state weeks only episode 15          32                     0.948                   0.912  -1.281    0.210
+
+A: all test weeks: gated/SARIMAX ratio across leave-one-out runs: min 1.017, max 1.104; below 1 in 0 of 15 runs; gated/naive max 0.803
+
+B: shock-state weeks only: gated/SARIMAX ratio across leave-one-out runs: min 0.939, max 0.965; below 1 in 15 of 15 runs; gated/naive max 0.925

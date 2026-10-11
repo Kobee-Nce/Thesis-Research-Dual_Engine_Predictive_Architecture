@@ -1,0 +1,16 @@
+[indicator] gated vs benchmark; negative difference / log ratio = gated better
+    loss     benchmark  pooled_mean_loss_diff  pooled_DM_HLN  pooled_p  commodities_gated_lower  commodities_sig_holm  Wilcoxon_p_log_ratio  median_log_ratio
+ squared         naive                -0.3358        -8.1082    0.0000                       10                    10                0.0020           -0.2146
+ squared arima_fourier                -0.1088        -1.5412    0.1268                        8                     0                0.1055           -0.0809
+ squared       sarimax                -0.0044        -0.0843    0.9330                        7                     0                0.8457           -0.0093
+ squared           xgb                -0.2114        -7.6408    0.0000                       10                    10                0.0020           -0.1470
+ squared       blend50                 0.0075         0.5129    0.6093                        6                     0                0.8457           -0.0015
+ squared    gated_noGA                 0.0110         1.2024    0.2324                        4                     0                0.1934            0.0099
+ squared     gated_P90                -0.0116        -2.2641    0.0260                       10                     0                0.0020           -0.0092
+absolute         naive                -0.2234       -10.2864    0.0000                       10                    10                0.0020           -0.2557
+absolute arima_fourier                -0.0252        -0.7564    0.4514                        8                     0                0.2754           -0.0475
+absolute       sarimax                 0.0227         0.8331    0.4070                        3                     1                0.3223            0.0173
+absolute           xgb                -0.1465        -9.7727    0.0000                       10                    10                0.0020           -0.1781
+absolute       blend50                 0.0089         1.1565    0.2506                        4                     0                0.1309            0.0100
+absolute    gated_noGA                 0.0044         0.9929    0.3234                        4                     0                0.3750            0.0043
+absolute     gated_P90                -0.0091        -2.3363    0.0217                        9                     0                0.0039           -0.0114

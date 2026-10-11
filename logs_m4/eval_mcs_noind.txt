@@ -1,0 +1,17 @@
+[noind] Model Confidence Set (B=5000, block=4)
+
+loss = squared
+          model  mean_scaled_loss  MCS_p_TR  MCS_p_Tmax  in_90pct_set  in_75pct_set
+sarimax = gated             0.102     1.000       1.000          True          True
+  arima_fourier             0.103     0.983       0.983          True          True
+        blend50             0.270     0.000       0.000         False         False
+            xgb             0.779     0.000       0.000         False         False
+          naive             1.000     0.000       0.000         False         False
+
+loss = absolute
+          model  mean_scaled_loss  MCS_p_TR  MCS_p_Tmax  in_90pct_set  in_75pct_set
+  arima_fourier             0.309     1.000       1.000          True          True
+sarimax = gated             0.310     0.239       0.239          True         False
+        blend50             0.508     0.000       0.000         False         False
+            xgb             0.880     0.000       0.000         False         False
+          naive             1.000     0.000       0.000         False         False

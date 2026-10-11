@@ -1,0 +1,7 @@
+model,mean_error_PHP,mean_error_pct,bias_sig_raw,bias_sig_holm,LB_reject_5pct,ARCH_reject_5pct
+naive,0.1295,0.137,0,0,10,10
+arima_fourier,0.0386,0.0382,0,0,3,9
+sarimax,0.0386,0.0382,0,0,3,9
+xgb,0.265,0.2741,0,0,10,10
+blend50,0.1518,0.1561,0,0,10,8
+gated,0.0386,0.0382,0,0,3,9

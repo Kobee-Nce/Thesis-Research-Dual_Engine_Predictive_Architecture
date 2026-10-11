@@ -1,0 +1,21 @@
+indicator | rows 4360 | model features 80 | NaN 0
+{'test': 900, 'train': 3460} | rows per commodity: [436]
+Shock weeks (I_shock_t) by split, per commodity: {'test': 33, 'train': 34}
+        0.42 real         0.37 user         0.03 sys
+           131825664  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               14534  page reclaims
+                  85  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   2  voluntary context switches
+                  63  involuntary context switches
+          6745715192  instructions retired
+          1760524869  cycles elapsed
+            90292872  peak memory footprint

@@ -1,0 +1,12 @@
+# Python / environment
+.venv/
+__pycache__/
+*.pyc
+# macOS and Office clutter
+.DS_Store
+__MACOSX/
+~$*
+# local-only files
+*.zip
+# DFTC compiled prices: not redistributed (no reuse terms on the source)
+data/raw/Data-Scrape-Final.xlsx

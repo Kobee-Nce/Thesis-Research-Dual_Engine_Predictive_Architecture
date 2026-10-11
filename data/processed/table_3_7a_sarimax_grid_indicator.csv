@@ -1,0 +1,201 @@
+series,Commodity,p,d,q,AIC,BIC,LB_p,converged
+indicator,Ampalaya,4,1,3,1294.536,1352.19,0.223,True
+indicator,Ampalaya,4,1,1,1294.734,1344.7,0.123,True
+indicator,Ampalaya,3,1,3,1296.305,1350.115,0.222,True
+indicator,Ampalaya,4,1,2,1296.607,1350.416,0.082,True
+indicator,Ampalaya,2,1,3,1298.248,1348.214,0.121,True
+indicator,Ampalaya,4,1,0,1301.191,1347.314,0.032,True
+indicator,Ampalaya,1,1,3,1305.268,1351.39,0.007,True
+indicator,Ampalaya,2,1,2,1308.658,1354.781,0.113,True
+indicator,Ampalaya,3,1,2,1308.692,1358.658,0.115,True
+indicator,Ampalaya,0,1,3,1313.123,1355.402,0.0,True
+indicator,Ampalaya,3,1,1,1315.314,1361.437,0.002,True
+indicator,Ampalaya,3,1,0,1320.921,1363.2,0.001,True
+indicator,Ampalaya,2,1,0,1331.21,1369.645,0.0,True
+indicator,Ampalaya,2,1,1,1333.524,1375.803,0.0,True
+indicator,Ampalaya,1,1,1,1338.592,1377.028,0.0,True
+indicator,Ampalaya,1,1,2,1340.524,1382.803,0.0,True
+indicator,Ampalaya,0,1,2,1362.134,1400.569,0.0,True
+indicator,Ampalaya,1,1,0,1363.872,1398.464,0.0,True
+indicator,Ampalaya,0,1,1,1378.177,1412.769,0.0,True
+indicator,Ampalaya,0,1,0,1628.241,1658.989,0.0,True
+indicator,Cabbage,4,1,2,1991.831,2045.641,0.793,True
+indicator,Cabbage,4,1,3,1993.822,2051.475,0.708,True
+indicator,Cabbage,3,1,2,1998.51,2048.476,0.226,True
+indicator,Cabbage,2,1,2,2002.227,2048.35,0.086,True
+indicator,Cabbage,0,1,3,2006.767,2049.046,0.332,True
+indicator,Cabbage,3,1,3,2007.491,2061.3,0.223,True
+indicator,Cabbage,2,1,3,2008.752,2058.718,0.3,True
+indicator,Cabbage,1,1,3,2008.759,2054.881,0.267,True
+indicator,Cabbage,3,1,1,2009.739,2055.861,0.192,True
+indicator,Cabbage,4,1,1,2009.825,2059.791,0.197,True
+indicator,Cabbage,1,1,1,2010.417,2048.853,0.062,True
+indicator,Cabbage,1,1,2,2013.014,2055.293,0.007,True
+indicator,Cabbage,0,1,2,2014.838,2053.273,0.033,True
+indicator,Cabbage,4,1,0,2023.251,2069.373,0.182,True
+indicator,Cabbage,2,1,1,2029.316,2071.595,0.052,True
+indicator,Cabbage,0,1,1,2029.728,2064.32,0.001,True
+indicator,Cabbage,3,1,0,2044.113,2086.392,0.006,True
+indicator,Cabbage,1,1,0,2044.663,2079.255,0.025,True
+indicator,Cabbage,2,1,0,2045.13,2083.565,0.008,True
+indicator,Cabbage,0,1,0,2102.54,2133.288,0.0,True
+indicator,Carrot,4,1,3,1754.846,1812.499,0.337,True
+indicator,Carrot,3,1,3,1755.132,1808.941,0.453,True
+indicator,Carrot,4,1,1,1755.865,1805.831,0.061,True
+indicator,Carrot,4,1,2,1757.82,1811.629,0.042,True
+indicator,Carrot,2,1,3,1759.305,1809.271,0.205,True
+indicator,Carrot,4,1,0,1765.546,1811.669,0.001,True
+indicator,Carrot,3,1,2,1778.435,1828.401,0.005,True
+indicator,Carrot,1,1,3,1779.631,1825.753,0.0,True
+indicator,Carrot,2,1,2,1780.18,1826.302,0.001,True
+indicator,Carrot,2,1,1,1781.852,1824.131,0.0,True
+indicator,Carrot,3,1,1,1783.262,1829.384,0.0,True
+indicator,Carrot,3,1,0,1789.846,1832.125,0.0,True
+indicator,Carrot,0,1,3,1791.588,1833.867,0.0,True
+indicator,Carrot,2,1,0,1800.811,1839.246,0.0,True
+indicator,Carrot,1,1,1,1815.989,1854.424,0.0,True
+indicator,Carrot,1,1,2,1817.932,1860.211,0.0,True
+indicator,Carrot,0,1,2,1846.164,1884.6,0.0,True
+indicator,Carrot,1,1,0,1871.082,1905.674,0.0,True
+indicator,Carrot,0,1,1,1883.362,1917.954,0.0,True
+indicator,Carrot,0,1,0,2165.815,2196.564,0.0,True
+indicator,Eggplant,4,1,3,1037.95,1095.603,0.036,True
+indicator,Eggplant,3,1,3,1042.585,1096.394,0.002,True
+indicator,Eggplant,4,1,2,1045.137,1098.947,0.006,True
+indicator,Eggplant,2,1,2,1046.522,1092.644,0.001,True
+indicator,Eggplant,2,1,3,1048.0,1097.966,0.0,True
+indicator,Eggplant,3,1,2,1048.267,1098.233,0.0,True
+indicator,Eggplant,4,1,1,1058.664,1108.63,0.0,True
+indicator,Eggplant,1,1,3,1077.125,1123.248,0.0,True
+indicator,Eggplant,4,1,0,1080.896,1127.019,0.0,True
+indicator,Eggplant,3,1,0,1083.096,1125.375,0.0,True
+indicator,Eggplant,3,1,1,1083.945,1130.068,0.0,True
+indicator,Eggplant,2,1,1,1089.31,1131.589,0.0,True
+indicator,Eggplant,0,1,3,1103.311,1145.59,0.0,True
+indicator,Eggplant,2,1,0,1110.774,1149.21,0.0,True
+indicator,Eggplant,1,1,2,1141.743,1184.022,0.0,True
+indicator,Eggplant,1,1,1,1154.708,1193.143,0.0,True
+indicator,Eggplant,0,1,2,1199.185,1237.62,0.0,True
+indicator,Eggplant,1,1,0,1232.682,1267.273,0.0,True
+indicator,Eggplant,0,1,1,1256.559,1291.151,0.0,True
+indicator,Eggplant,0,1,0,1570.061,1600.809,0.0,True
+indicator,Native garlic,4,1,3,1987.544,2045.197,0.408,True
+indicator,Native garlic,3,1,3,1987.814,2041.624,0.375,True
+indicator,Native garlic,4,1,2,1989.665,2043.474,0.155,True
+indicator,Native garlic,4,1,0,1995.943,2042.066,0.114,True
+indicator,Native garlic,4,1,1,1997.277,2047.243,0.066,True
+indicator,Native garlic,2,1,3,2004.167,2054.133,0.001,True
+indicator,Native garlic,0,1,3,2015.195,2057.474,0.0,True
+indicator,Native garlic,1,1,3,2015.846,2061.969,0.0,True
+indicator,Native garlic,3,1,2,2019.404,2069.37,0.009,True
+indicator,Native garlic,2,1,2,2019.762,2065.884,0.014,True
+indicator,Native garlic,3,1,1,2023.304,2069.427,0.001,True
+indicator,Native garlic,2,1,1,2029.092,2071.371,0.0,True
+indicator,Native garlic,3,1,0,2040.8,2083.079,0.0,True
+indicator,Native garlic,1,1,2,2042.492,2084.771,0.0,True
+indicator,Native garlic,1,1,1,2043.749,2082.185,0.0,True
+indicator,Native garlic,2,1,0,2045.398,2083.834,0.0,True
+indicator,Native garlic,0,1,2,2045.493,2083.929,0.0,True
+indicator,Native garlic,0,1,1,2045.86,2080.452,0.0,True
+indicator,Native garlic,1,1,0,2070.593,2105.185,0.0,True
+indicator,Native garlic,0,1,0,2252.174,2282.922,0.0,True
+indicator,Patola,4,1,3,1722.21,1779.863,0.497,True
+indicator,Patola,3,1,3,1723.094,1776.903,0.356,True
+indicator,Patola,4,1,2,1726.329,1780.139,0.175,True
+indicator,Patola,4,1,0,1731.23,1777.352,0.14,True
+indicator,Patola,4,1,1,1732.252,1782.218,0.212,True
+indicator,Patola,2,1,3,1743.365,1793.332,0.002,True
+indicator,Patola,0,1,3,1747.419,1789.698,0.0,True
+indicator,Patola,1,1,3,1748.193,1794.315,0.0,True
+indicator,Patola,2,1,1,1755.451,1797.73,0.0,True
+indicator,Patola,3,1,1,1756.849,1802.972,0.0,True
+indicator,Patola,3,1,2,1757.857,1807.823,0.01,True
+indicator,Patola,2,1,2,1757.899,1804.022,0.02,True
+indicator,Patola,0,1,1,1768.66,1803.252,0.0,True
+indicator,Patola,1,1,1,1770.586,1809.021,0.0,True
+indicator,Patola,0,1,2,1770.617,1809.053,0.0,True
+indicator,Patola,1,1,2,1771.819,1814.098,0.0,True
+indicator,Patola,2,1,0,1781.497,1819.933,0.0,True
+indicator,Patola,3,1,0,1782.027,1824.306,0.0,True
+indicator,Patola,1,1,0,1792.968,1827.56,0.0,True
+indicator,Patola,0,1,0,1939.837,1970.586,0.0,True
+indicator,Red onion,4,1,1,2205.887,2255.853,0.652,True
+indicator,Red onion,4,1,0,2206.589,2252.712,0.578,True
+indicator,Red onion,4,1,2,2207.47,2261.28,0.609,True
+indicator,Red onion,2,1,3,2207.852,2257.818,0.529,True
+indicator,Red onion,4,1,3,2208.073,2265.727,0.63,True
+indicator,Red onion,3,1,3,2209.182,2262.992,0.438,True
+indicator,Red onion,1,1,3,2210.602,2256.725,0.281,True
+indicator,Red onion,3,1,2,2220.085,2270.051,0.166,True
+indicator,Red onion,2,1,2,2220.562,2266.684,0.146,True
+indicator,Red onion,3,1,1,2222.897,2269.019,0.028,True
+indicator,Red onion,3,1,0,2230.673,2272.952,0.002,True
+indicator,Red onion,2,1,1,2234.193,2276.472,0.0,True
+indicator,Red onion,2,1,0,2235.055,2273.491,0.0,True
+indicator,Red onion,0,1,3,2236.13,2278.409,0.0,True
+indicator,Red onion,1,1,1,2237.689,2276.124,0.0,True
+indicator,Red onion,1,1,2,2239.689,2281.968,0.0,True
+indicator,Red onion,1,1,0,2250.473,2285.065,0.0,True
+indicator,Red onion,0,1,2,2287.585,2326.021,0.0,True
+indicator,Red onion,0,1,1,2320.459,2355.051,0.0,True
+indicator,Red onion,0,1,0,2593.817,2624.565,0.0,True
+indicator,Squash,4,1,2,1026.016,1079.825,0.852,True
+indicator,Squash,4,1,1,1026.152,1076.118,0.868,True
+indicator,Squash,3,1,3,1026.369,1080.179,0.778,True
+indicator,Squash,4,1,3,1026.46,1084.113,0.899,True
+indicator,Squash,4,1,0,1026.989,1073.112,0.804,True
+indicator,Squash,1,1,3,1031.857,1077.979,0.146,True
+indicator,Squash,2,1,3,1031.94,1081.906,0.244,True
+indicator,Squash,2,1,2,1039.966,1086.089,0.474,True
+indicator,Squash,3,1,2,1040.107,1090.073,0.064,True
+indicator,Squash,3,1,1,1043.494,1089.617,0.141,True
+indicator,Squash,0,1,3,1047.125,1089.404,0.0,True
+indicator,Squash,3,1,0,1052.901,1095.179,0.007,True
+indicator,Squash,2,1,1,1055.249,1097.528,0.0,True
+indicator,Squash,2,1,0,1060.465,1098.901,0.0,True
+indicator,Squash,1,1,1,1064.309,1102.745,0.0,True
+indicator,Squash,1,1,2,1066.211,1108.49,0.0,True
+indicator,Squash,1,1,0,1078.249,1112.841,0.0,True
+indicator,Squash,0,1,2,1104.997,1143.433,0.0,True
+indicator,Squash,0,1,1,1124.824,1159.416,0.0,True
+indicator,Squash,0,1,0,1386.182,1416.93,0.0,True
+indicator,Tomato,3,0,3,1309.672,1367.369,0.138,True
+indicator,Tomato,4,0,3,1310.245,1371.788,0.119,False
+indicator,Tomato,2,0,3,1319.627,1373.477,0.009,True
+indicator,Tomato,3,0,2,1340.114,1393.964,0.0,True
+indicator,Tomato,4,0,0,1366.68,1416.684,0.0,True
+indicator,Tomato,3,0,1,1367.824,1417.828,0.0,True
+indicator,Tomato,3,0,0,1369.631,1415.788,0.0,True
+indicator,Tomato,4,0,2,1370.63,1428.327,0.0,False
+indicator,Tomato,4,0,1,1373.199,1427.049,0.0,True
+indicator,Tomato,2,0,2,1417.668,1467.672,0.0,True
+indicator,Tomato,2,0,1,1422.458,1468.615,0.0,True
+indicator,Tomato,1,0,3,1424.101,1474.105,0.0,True
+indicator,Tomato,2,0,0,1538.362,1580.673,0.0,True
+indicator,Tomato,1,0,2,1545.931,1592.088,0.0,True
+indicator,Tomato,1,0,1,1687.273,1729.583,0.0,True
+indicator,Tomato,0,0,3,1931.261,1977.418,0.0,True
+indicator,Tomato,1,0,0,2044.812,2083.276,0.0,True
+indicator,Tomato,0,0,2,2186.327,2228.638,0.0,True
+indicator,Tomato,0,0,1,2580.915,2619.379,0.0,True
+indicator,Tomato,0,0,0,3032.488,3067.106,0.0,True
+indicator,Upo,4,1,1,838.771,888.737,0.075,True
+indicator,Upo,4,1,2,840.529,894.338,0.053,True
+indicator,Upo,4,1,0,841.97,888.093,0.029,True
+indicator,Upo,4,1,3,842.033,899.686,0.045,True
+indicator,Upo,3,1,3,843.936,897.746,0.039,True
+indicator,Upo,2,1,3,847.743,897.709,0.027,True
+indicator,Upo,2,1,2,851.591,897.714,0.026,True
+indicator,Upo,3,1,2,852.2,902.166,0.02,True
+indicator,Upo,1,1,3,852.276,898.399,0.004,True
+indicator,Upo,3,1,1,857.494,903.617,0.001,True
+indicator,Upo,0,1,3,865.845,908.124,0.0,True
+indicator,Upo,3,1,0,866.354,908.633,0.0,True
+indicator,Upo,2,1,0,878.834,917.269,0.0,True
+indicator,Upo,2,1,1,882.303,924.582,0.0,True
+indicator,Upo,1,1,1,885.657,924.092,0.0,True
+indicator,Upo,1,1,2,887.349,929.628,0.0,True
+indicator,Upo,1,1,0,905.398,939.99,0.0,True
+indicator,Upo,0,1,2,921.098,959.533,0.0,True
+indicator,Upo,0,1,1,944.247,978.839,0.0,True
+indicator,Upo,0,1,0,1196.405,1227.153,0.0,True

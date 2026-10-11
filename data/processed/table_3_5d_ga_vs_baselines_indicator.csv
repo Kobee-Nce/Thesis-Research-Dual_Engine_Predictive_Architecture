@@ -1,0 +1,8 @@
+method,cv_rmse_std,n_lag_features,rel_to_naive
+GA consensus (>=50% of seeds),0.9895,12,0.9445
+GA best single seed,0.9727,20,0.9285
+All 72 lag features,1.0068,72,0.9611
+Price lags only,0.9991,8,0.9537
+Filter top-12 by |corr| (within-fold),0.9955,12,0.9503
+Random 12-subsets (mean of 30),1.0192,12,0.9729
+Random 12-subsets (best of 30),1.0065,12,0.9608

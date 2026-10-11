@@ -1,0 +1,37 @@
+sample,term,coef,ci95_low,ci95_high,p_value,n
+"weekly, training weeks",const,2.824,2.5608,3.0872,0.0,354
+"weekly, training weeks",rain_L0,0.246,-0.3307,0.8228,0.4031,354
+"weekly, training weeks",rain_L1,0.2202,-0.4888,0.9291,0.5427,354
+"weekly, training weeks",rain_L2,0.2076,-0.4078,0.8231,0.5085,354
+"weekly, training weeks",rain_L3,0.2297,-0.4047,0.864,0.4779,354
+"weekly, training weeks",diesel_L0,-0.1607,-0.5563,0.2348,0.4257,354
+"weekly, training weeks",diesel_L1,-0.1414,-0.7134,0.4305,0.6279,354
+"weekly, training weeks",diesel_L2,-0.5744,-0.9643,-0.1845,0.0039,354
+"weekly, training weeks",diesel_L3,-0.5411,-0.9797,-0.1026,0.0156,354
+"weekly, training weeks",JOINT rain lags = 0 (Wald),,,,0.891,354
+"weekly, training weeks",JOINT diesel lags = 0 (Wald),,,,0.01,354
+"weekly, full sample",const,2.8002,2.5652,3.0352,0.0,444
+"weekly, full sample",rain_L0,0.1707,-0.263,0.6045,0.4404,444
+"weekly, full sample",rain_L1,0.1206,-0.3227,0.564,0.5938,444
+"weekly, full sample",rain_L2,-0.0258,-0.3972,0.3455,0.8915,444
+"weekly, full sample",rain_L3,-0.0061,-0.4443,0.4321,0.9782,444
+"weekly, full sample",diesel_L0,-0.1653,-0.4777,0.1471,0.2997,444
+"weekly, full sample",diesel_L1,-0.2207,-0.5674,0.1259,0.2119,444
+"weekly, full sample",diesel_L2,-0.4054,-0.6872,-0.1235,0.0048,444
+"weekly, full sample",diesel_L3,-0.1791,-0.533,0.1747,0.3211,444
+"weekly, full sample",JOINT rain lags = 0 (Wald),,,,0.9419,444
+"weekly, full sample",JOINT diesel lags = 0 (Wald),,,,0.041,444
+"monthly PSA, training months",const,9.5737,8.0873,11.0601,0.0,81
+"monthly PSA, training months",rain_L0,-0.5659,-2.5909,1.459,0.5838,81
+"monthly PSA, training months",rain_L1,1.9147,-0.3352,4.1647,0.0953,81
+"monthly PSA, training months",diesel_L0,-0.6893,-1.688,0.3093,0.1761,81
+"monthly PSA, training months",diesel_L1,-0.5781,-1.4238,0.2675,0.1803,81
+"monthly PSA, training months",JOINT rain lags = 0 (Wald),,,,0.2073,81
+"monthly PSA, training months",JOINT diesel lags = 0 (Wald),,,,0.3142,81
+"monthly PSA, full sample",const,9.5911,8.357,10.8251,0.0,102
+"monthly PSA, full sample",rain_L0,0.1359,-1.3311,1.6028,0.856,102
+"monthly PSA, full sample",rain_L1,0.7879,-0.6648,2.2407,0.2878,102
+"monthly PSA, full sample",diesel_L0,-0.9647,-1.732,-0.1974,0.0137,102
+"monthly PSA, full sample",diesel_L1,-0.1983,-0.8562,0.4595,0.5546,102
+"monthly PSA, full sample",JOINT rain lags = 0 (Wald),,,,0.5204,102
+"monthly PSA, full sample",JOINT diesel lags = 0 (Wald),,,,0.012,102

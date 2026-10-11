@@ -1,0 +1,7 @@
+Percentile,Trigger,Threshold,Total,Train,Test
+P95,Rain,125.4,29,18,11
+P95,Diesel,5.92,42,18,24
+P95,Rain OR Diesel,125.4 mm / 5.92%,67,34,33
+P90,Rain,110.5,50,36,14
+P90,Diesel,4.75,66,36,30
+P90,Rain OR Diesel,110.5 mm / 4.75%,104,62,42

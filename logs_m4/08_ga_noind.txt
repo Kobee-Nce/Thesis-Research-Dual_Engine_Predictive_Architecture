@@ -1,0 +1,41 @@
+seed 1000: CV-RMSE 0.8954  selected 15  gens 7  (5s)
+seed 1001: CV-RMSE 0.8871  selected 20  gens 16  (16s)
+seed 1002: CV-RMSE 0.8896  selected 17  gens 14  (26s)
+seed 1003: CV-RMSE 0.8878  selected 20  gens 14  (35s)
+seed 1004: CV-RMSE 0.8885  selected 21  gens 10  (42s)
+seed 1005: CV-RMSE 0.8841  selected 22  gens 17  (55s)
+seed 1006: CV-RMSE 0.8749  selected 21  gens 20  (68s)
+seed 1007: CV-RMSE 0.8990  selected 22  gens 9  (74s)
+seed 1008: CV-RMSE 0.8837  selected 22  gens 13  (84s)
+seed 1009: CV-RMSE 0.8815  selected 18  gens 9  (91s)
+
+CONSENSUS: 10 features: ['y_L1', 'y_L3', 'y_L4', 'y_L7', 'y_L8', 't_mean_L7', 't_mean_L8', 'rain_roll4_L6', 'diesel_pct_L2', 'diesel_pct_L4']
+                               method  cv_rmse_std  n_lag_features  rel_to_naive
+        GA consensus (>=50% of seeds)       0.8893              10        0.9038
+                  GA best single seed       0.8749              19        0.8891
+                  All 72 lag features       0.9111              72        0.9260
+                      Price lags only       0.8902               8        0.9047
+Filter top-10 by |corr| (within-fold)       0.9237              10        0.9387
+       Random 10-subsets (mean of 30)       0.9412              10        0.9565
+       Random 10-subsets (best of 30)       0.9211              10        0.9361
+
+Holdout fold 4: {'GA consensus (folds 1-3 only)': 0.7741, 'All 72 lag features': 0.7876, 'Price lags only': 0.7384, 'Filter top-13 by |corr|': 0.7716, 'Naive (zero change)': 0.857}
+Mean pairwise Jaccard across seeds: 0.211 | naive CV RMSE 0.9840 | total 139s
+      140.31 real       137.73 user         9.11 sys
+           255508480  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               46469  page reclaims
+                 285  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 347  voluntary context switches
+             1047069  involuntary context switches
+       2266319012466  instructions retired
+        584317143096  cycles elapsed
+           190677832  peak memory footprint

@@ -1,0 +1,23 @@
+Prices: (103, 10) | % missing: 0.0
+Weather: (3134, 5) | % missing: 0.0
+Fuel obs: 415 | blank diesel: 6 | gaps handled in 01_preprocess.py
+Fuel rows not used: 11 -> {'unparsed': 6, 'outside window': 5}
+CPI: (103,) | % missing: 0.0
+        0.58 real         0.33 user         0.06 sys
+           115392512  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               11054  page reclaims
+                2198  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 607  voluntary context switches
+                1021  involuntary context switches
+          5805442418  instructions retired
+          1720834233  cycles elapsed
+            73745032  peak memory footprint
