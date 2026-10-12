@@ -5,7 +5,7 @@
   (C) Moving-block bootstrap (block length 4, 2000 resamples, whole weeks resampled so the 10 commodities stay together): 95% CI for the geometric-mean
       RMSE ratio gated/benchmark on all weeks, normal and shock target weeks, by gate state, and by trigger.
   (D) RQ1: mean |weekly log price change| on shock indicators (lags 0-3) with Newey-West CIs, on the indicator-free weekly series, plus the same on official PSA monthly prices.
-  (E) Real-data check: do predicted weekly movements agree with real DFTC (Bankerohan) weekly price movements?
+  (E) Real-data check: do predicted weekly movements agree with real DFTC weekly price movements?
 SAFETY: exactly one flag: --confirm-test (real test-set forecasts; RQ1 also on the full sample) or --dry-run (reads dryrun_ files; RQ1 on training weeks only).
 Usage: python 12_tests.py <indicator|noind> --confirm-test"""
 import sys, warnings

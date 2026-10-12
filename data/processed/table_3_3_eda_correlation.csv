@@ -1,0 +1,11 @@
+Rank,Series,r_lag1,max_abs_r,lag_of_max,r_at_max
+1,Weekly retail price (standardized level),-0.096,0.316,4,-0.316
+2,Mean temperature,-0.008,0.052,8,0.052
+3,Four-week rainfall total,0.001,0.04,8,-0.04
+4,Maximum daily wind speed,0.017,0.038,5,-0.038
+5,Weekly diesel price change,-0.037,0.037,1,-0.037
+6,Maximum temperature,0.032,0.034,2,0.034
+7,"Vegetable CPI, m/m change (previous month)",-0.026,0.026,1 month,-0.026
+8,Minimum temperature,-0.016,0.025,7,0.025
+9,Maximum daily rainfall,-0.0,0.016,8,-0.016
+10,Total weekly rainfall,-0.004,0.014,8,-0.014

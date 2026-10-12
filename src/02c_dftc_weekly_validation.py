@@ -1,5 +1,5 @@
 """02c_dftc_weekly_validation.py -- supplementary validation of the reconstructed weekly series against real
-DAILY DFTC Bankerohan retail prices (Aug 2024 - Jul 2026, the fully covered period).
+DAILY Davao Food Terminal Complex (DFTC) retail prices (Aug 2024 - Jul 2026, the fully covered period).
 Levels differ (DFTC ~0.6-0.7 x PSA), so we compare scale-free WITHIN-MONTH log deviations and weekly log changes."""
 import numpy as np, pandas as pd, sys
 from importlib import import_module

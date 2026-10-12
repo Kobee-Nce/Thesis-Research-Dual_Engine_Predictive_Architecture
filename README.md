@@ -100,6 +100,7 @@ python 03_features.py indicator && python 03_features.py noind
 python 04_figures.py
 python 04b_shock_timeline.py
 python 05_gate.py
+python 04c_eda.py                 # EDA tables and figures of Section 3.3.1 (reads saved outputs only)
 
 for s in indicator noind; do
   python 07_sarimax_order.py $s
