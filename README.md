@@ -120,6 +120,7 @@ for s in indicator noind; do
   python src/eval_model_confidence_set.py $s
   python src/eval_error_diagnostics.py $s
   python src/eval_loss_robustness.py $s
+  python src/eval_learning_curves.py $s       # Ch. 4 loss curves and hyperparameter sensitivity (training weeks only)
 done
 python src/forecast_encompassing_changes.py indicator   # indicator series only (gated = SARIMAX for noind)
 ```

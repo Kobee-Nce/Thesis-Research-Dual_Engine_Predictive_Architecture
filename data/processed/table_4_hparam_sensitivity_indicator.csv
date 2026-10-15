@@ -1,0 +1,9 @@
+hyperparameter,spearman_rho,p_value,range_min,range_max
+min_child_weight,0.2966,0.0214,1.0,20.0
+gamma,-0.1663,0.204,0.0,1.0
+learning_rate,0.1152,0.3808,0.0112,0.1716
+reg_lambda,-0.1113,0.3974,0.534,17.6576
+subsample,0.0867,0.5101,0.6056,0.9883
+colsample_bytree,0.058,0.6597,0.4185,0.9877
+reg_alpha,-0.0301,0.8194,0.0011,4.0625
+max_depth,-0.0257,0.8456,2.0,5.0
