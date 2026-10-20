@@ -1,0 +1,11 @@
+series,model,mean_corr_all10,mean_corr_8_exact,mean_sign_agreement,commodities_corr_positive
+indicator,reconstructed target,0.163,0.199,0.57,9
+indicator,sarimax,0.148,0.165,0.567,9
+indicator,xgb,0.066,0.055,0.543,7
+indicator,blend50,0.144,0.154,0.565,9
+indicator,gated,0.141,0.144,0.565,8
+noind,reconstructed target,0.238,0.26,0.588,10
+noind,sarimax,0.214,0.246,0.578,10
+noind,xgb,0.089,0.132,0.547,5
+noind,blend50,0.205,0.24,0.588,10
+noind,gated,0.214,0.246,0.578,10

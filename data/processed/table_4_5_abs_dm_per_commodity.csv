@@ -1,0 +1,21 @@
+benchmark,commodity,DM_HLN,p,p_holm
+sarimax,Ampalaya,0.1183,0.9061,1.0
+sarimax,Cabbage,0.8376,0.4045,1.0
+sarimax,Carrot,1.8267,0.0711,0.6398
+sarimax,Eggplant,0.1653,0.8691,1.0
+sarimax,Native garlic,-0.2016,0.8407,1.0
+sarimax,Patola,0.3615,0.7186,1.0
+sarimax,Red onion,-0.9196,0.3603,1.0
+sarimax,Squash,0.3324,0.7404,1.0
+sarimax,Tomato,3.0236,0.0033,0.0326
+sarimax,Upo,-0.7512,0.4545,1.0
+blend50,Ampalaya,1.2172,0.2267,1.0
+blend50,Cabbage,0.8269,0.4105,1.0
+blend50,Carrot,1.7821,0.0781,0.7033
+blend50,Eggplant,-0.9763,0.3316,1.0
+blend50,Native garlic,-0.4341,0.6653,1.0
+blend50,Patola,1.3962,0.1661,1.0
+blend50,Red onion,-0.2275,0.8206,1.0
+blend50,Squash,-0.3061,0.7602,1.0
+blend50,Tomato,2.0372,0.0446,0.446
+blend50,Upo,0.4666,0.642,1.0

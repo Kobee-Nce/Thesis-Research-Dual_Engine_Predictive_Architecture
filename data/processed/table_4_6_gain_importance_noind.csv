@@ -1,0 +1,19 @@
+feature,group,gain_share,gain_sd
+y_L4,Price lags,0.1078,0.0378
+y_roll4_std,Rolling price mean/SD,0.0921,0.0313
+y_L3,Price lags,0.0829,0.0226
+y_L1,Price lags,0.0715,0.0224
+y_roll4_mean,Rolling price mean/SD,0.069,0.0179
+y_L8,Price lags,0.0647,0.0236
+cos1,Fourier terms,0.0644,0.0328
+y_L7,Price lags,0.0601,0.021
+cos2,Fourier terms,0.0558,0.026
+sin1,Fourier terms,0.0508,0.0149
+cpi_veg_mom_L1m,CPI m/m change,0.0464,0.0127
+sin2,Fourier terms,0.0454,0.0183
+rain_roll4_L6,Rainfall lags,0.0437,0.0207
+t_mean_L8,Temperature lags,0.0374,0.0114
+t_mean_L7,Temperature lags,0.0358,0.0126
+diesel_pct_L4,Diesel-change lags,0.0338,0.0131
+diesel_pct_L2,Diesel-change lags,0.0337,0.0123
+shock_L1,Gate state $S_{t-1}$,0.0048,0.0124

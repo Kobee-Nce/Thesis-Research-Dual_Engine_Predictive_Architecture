@@ -1,0 +1,11 @@
+removed,n_inputs,score_mean,score_seed42,change_mean,change_sd,share_seeds_worse
+None (frozen 18-input model),18,1.0177,1.0129,0.0,0.0,0.0
+Price lags,13,1.0063,1.0207,-0.0114,0.0175,0.2
+Temperature lags,16,1.0165,1.011,-0.0012,0.0206,0.3
+Rainfall lags,17,1.0226,1.0213,0.0049,0.0133,0.6
+Diesel-change lags,16,1.0146,1.0072,-0.0031,0.0202,0.2
+Rolling price mean/SD,16,1.0047,0.994,-0.013,0.0193,0.2
+CPI m/m change,17,1.0114,1.0124,-0.0063,0.0152,0.3
+Fourier terms,14,1.0284,1.0303,0.0107,0.0197,0.6
+Gate state $S_{t-1}$,17,1.0193,1.0138,0.0016,0.0148,0.5
+"All weather, fuel, CPI and gate inputs",11,1.0152,0.9933,-0.0025,0.0219,0.5

@@ -1,0 +1,101 @@
+seed,removed,n_inputs,score,change
+42,None,18,1.01295,0.0
+42,Price lags,13,1.02066,0.00771
+42,Temperature lags,16,1.01097,-0.00198
+42,Rainfall lags,17,1.02127,0.00832
+42,Diesel-change lags,16,1.00721,-0.00573
+42,Rolling price mean/SD,16,0.99401,-0.01894
+42,CPI m/m change,17,1.01242,-0.00053
+42,Fourier terms,14,1.03028,0.01733
+42,Gate state $S_{t-1}$,17,1.01383,0.00089
+42,"All weather, fuel, CPI and gate inputs",11,0.99335,-0.0196
+1,None,18,1.01884,0.0
+1,Price lags,13,0.99772,-0.02111
+1,Temperature lags,16,1.01789,-0.00095
+1,Rainfall lags,17,1.03861,0.01977
+1,Diesel-change lags,16,1.01408,-0.00476
+1,Rolling price mean/SD,16,1.02279,0.00395
+1,CPI m/m change,17,1.01396,-0.00488
+1,Fourier terms,14,1.01583,-0.00301
+1,Gate state $S_{t-1}$,17,1.02474,0.0059
+1,"All weather, fuel, CPI and gate inputs",11,1.01948,0.00064
+2,None,18,1.02654,0.0
+2,Price lags,13,1.00217,-0.02437
+2,Temperature lags,16,1.02718,0.00065
+2,Rainfall lags,17,1.02184,-0.0047
+2,Diesel-change lags,16,1.02055,-0.00599
+2,Rolling price mean/SD,16,1.01521,-0.01133
+2,CPI m/m change,17,1.01591,-0.01063
+2,Fourier terms,14,1.05754,0.031
+2,Gate state $S_{t-1}$,17,1.02581,-0.00073
+2,"All weather, fuel, CPI and gate inputs",11,0.99703,-0.02951
+3,None,18,1.01948,0.0
+3,Price lags,13,1.01032,-0.00916
+3,Temperature lags,16,1.00273,-0.01675
+3,Rainfall lags,17,1.00194,-0.01754
+3,Diesel-change lags,16,0.99504,-0.02444
+3,Rolling price mean/SD,16,0.98787,-0.03161
+3,CPI m/m change,17,1.01089,-0.00859
+3,Fourier terms,14,1.00626,-0.01322
+3,Gate state $S_{t-1}$,17,1.01942,-7e-05
+3,"All weather, fuel, CPI and gate inputs",11,1.01363,-0.00585
+4,None,18,1.01449,0.0
+4,Price lags,13,1.00285,-0.01164
+4,Temperature lags,16,0.99665,-0.01784
+4,Rainfall lags,17,1.00907,-0.00541
+4,Diesel-change lags,16,0.99922,-0.01526
+4,Rolling price mean/SD,16,0.99251,-0.02198
+4,CPI m/m change,17,0.97684,-0.03764
+4,Fourier terms,14,1.03078,0.01629
+4,Gate state $S_{t-1}$,17,0.98896,-0.02552
+4,"All weather, fuel, CPI and gate inputs",11,1.01848,0.00399
+5,None,18,1.00935,0.0
+5,Price lags,13,0.9968,-0.01255
+5,Temperature lags,16,1.00586,-0.00349
+5,Rainfall lags,17,1.02872,0.01937
+5,Diesel-change lags,16,1.00699,-0.00236
+5,Rolling price mean/SD,16,0.99512,-0.01423
+5,CPI m/m change,17,1.01599,0.00664
+5,Fourier terms,14,1.03292,0.02357
+5,Gate state $S_{t-1}$,17,1.02668,0.01733
+5,"All weather, fuel, CPI and gate inputs",11,1.03438,0.02503
+6,None,18,1.03321,0.0
+6,Price lags,13,0.99577,-0.03744
+6,Temperature lags,16,1.00871,-0.02449
+6,Rainfall lags,17,1.03696,0.00376
+6,Diesel-change lags,16,1.01151,-0.0217
+6,Rolling price mean/SD,16,1.00428,-0.02893
+6,CPI m/m change,17,1.02324,-0.00997
+6,Fourier terms,14,1.0295,-0.00371
+6,Gate state $S_{t-1}$,17,1.02389,-0.00932
+6,"All weather, fuel, CPI and gate inputs",11,1.02884,-0.00437
+7,None,18,1.00048,0.0
+7,Price lags,13,1.02583,0.02536
+7,Temperature lags,16,1.0351,0.03462
+7,Rainfall lags,17,1.01355,0.01308
+7,Diesel-change lags,16,1.03346,0.03299
+7,Rolling price mean/SD,16,1.03269,0.03221
+7,CPI m/m change,17,1.01574,0.01527
+7,Fourier terms,14,1.03227,0.03179
+7,Gate state $S_{t-1}$,17,1.01606,0.01558
+7,"All weather, fuel, CPI and gate inputs",11,1.0361,0.03562
+8,None,18,1.00614,0.0
+8,Price lags,13,0.99601,-0.01014
+8,Temperature lags,16,1.04043,0.03429
+8,Rainfall lags,17,1.02589,0.01975
+8,Diesel-change lags,16,1.03845,0.03231
+8,Rolling price mean/SD,16,0.99681,-0.00933
+8,CPI m/m change,17,1.01394,0.0078
+8,Fourier terms,14,1.03558,0.02944
+8,Gate state $S_{t-1}$,17,1.02961,0.02347
+8,"All weather, fuel, CPI and gate inputs",11,1.00863,0.00249
+9,None,18,1.03556,0.0
+9,Price lags,13,1.01457,-0.02099
+9,Temperature lags,16,1.01988,-0.01568
+9,Rainfall lags,17,1.02819,-0.00737
+9,Diesel-change lags,16,1.01974,-0.01582
+9,Rolling price mean/SD,16,1.00543,-0.03013
+9,CPI m/m change,17,1.01493,-0.02063
+9,Fourier terms,14,1.01327,-0.02229
+9,Gate state $S_{t-1}$,17,1.02447,-0.01109
+9,"All weather, fuel, CPI and gate inputs",11,1.00174,-0.03382

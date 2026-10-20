@@ -1,0 +1,8 @@
+benchmark,pooled_DM_HLN,pooled_p,commodities_gated_lower,sig_holm_gated_better,sig_holm_gated_worse
+naive,-8.1081,0.0,10,10,0
+arima_fourier,-1.5414,0.1268,8,0,0
+sarimax,-0.0844,0.933,7,0,0
+xgb,-7.6407,0.0,10,10,0
+blend50,0.5129,0.6093,6,0,0
+gated_noGA,1.2022,0.2325,4,0,0
+gated_P90,-2.264,0.026,10,0,0
