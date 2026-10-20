@@ -1,0 +1,23 @@
+series,check,method,n_lags,rmse,rel_to_naive
+indicator,Selection folds 1-4,GA consensus (>=50% of seeds),12.0,0.9895,0.9445
+indicator,Selection folds 1-4,GA best single seed,20.0,0.9727,0.9285
+indicator,Selection folds 1-4,All 72 lag features,72.0,1.0068,0.9611
+indicator,Selection folds 1-4,Price lags only,8.0,0.9991,0.9537
+indicator,Selection folds 1-4,Filter top-12 by |corr| (within-fold),12.0,0.9955,0.9503
+indicator,Selection folds 1-4,Random 12-subsets (mean of 30),12.0,1.0192,0.9729
+indicator,Selection folds 1-4,Random 12-subsets (best of 30),12.0,1.0065,0.9608
+indicator,Hold-out fold 4,GA consensus (folds 1-3 only),,0.8319,0.9164
+indicator,Hold-out fold 4,All 72 lag features,,0.8404,0.9258
+indicator,Hold-out fold 4,Price lags only,,0.844,0.9297
+indicator,Hold-out fold 4,Filter top-15 by |corr|,,0.8435,0.9292
+noind,Selection folds 1-4,GA consensus (>=50% of seeds),10.0,0.8893,0.9038
+noind,Selection folds 1-4,GA best single seed,19.0,0.8749,0.8891
+noind,Selection folds 1-4,All 72 lag features,72.0,0.9111,0.926
+noind,Selection folds 1-4,Price lags only,8.0,0.8902,0.9047
+noind,Selection folds 1-4,Filter top-10 by |corr| (within-fold),10.0,0.9237,0.9387
+noind,Selection folds 1-4,Random 10-subsets (mean of 30),10.0,0.9412,0.9565
+noind,Selection folds 1-4,Random 10-subsets (best of 30),10.0,0.9211,0.9361
+noind,Hold-out fold 4,GA consensus (folds 1-3 only),,0.7741,0.9033
+noind,Hold-out fold 4,All 72 lag features,,0.7876,0.919
+noind,Hold-out fold 4,Price lags only,,0.7384,0.8616
+noind,Hold-out fold 4,Filter top-13 by |corr|,,0.7716,0.9004
