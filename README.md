@@ -123,7 +123,24 @@ for s in indicator noind; do
   python src/eval_learning_curves.py $s       # Ch. 4 loss curves and hyperparameter sensitivity (training weeks only)
 done
 python src/forecast_encompassing_changes.py indicator   # indicator series only (gated = SARIMAX for noind)
+
+# Chapter 4 tables and figures (run after everything above, from the project root)
+python src/eval_ch4_reconstruction.py      # Section 4.1
+python src/eval_ch4_ga.py                  # Section 4.2
+python src/eval_ch4_tuning.py              # Section 4.3 (uses the eval_learning_curves.py outputs)
+python src/eval_cv_baselines.py            # Section 4.4, validation-fold mean and SD (Table 38)
+python src/eval_ch4_test.py                # Section 4.4, test-set tables and figures
+python src/eval_ch4_stats.py               # Section 4.5, Diebold-Mariano, critical-difference and bootstrap figures
+python src/eval_feature_importance.py      # Section 4.6, gain importance and group removal, 10 seeds (refits XGBoost; about 3 min)
+python src/eval_ch4_rq.py                  # Section 4.7, volatility, RQ2 and DFTC summaries
+python src/eval_ch4_supp.py                # Section 4.8, temporal split, leave-one-episode-out, error diagnostics
 ```
+
+Except for `eval_learning_curves.py` and `eval_feature_importance.py`, which refit models on the training
+weeks only, the Chapter 4 scripts read saved outputs from `data/processed/` and re-estimate nothing.
+The reported Chapter 4 values of these two scripts come from the Apple M4 machine; because XGBoost samples
+columns at random, other machines can give slightly different single-seed values, which is why
+`eval_feature_importance.py` averages over ten seeds.
 
 `11_walkforward.py` and `12_tests.py` refuse to run without a flag: `--confirm-test` uses the real
 test set; `--dry-run` uses a stand-in window from the training weeks for debugging.
@@ -149,7 +166,7 @@ the audit script passes 62 of 62 checks on both machines.
 
 | Path | Contents |
 |---|---|
-| `src/` | Pipeline scripts, numbered in run order |
+| `src/` | Pipeline scripts, numbered in run order, plus the `eval_*.py` scripts for the supplementary analyses and the Chapter 4 tables and figures |
 | `data/raw/` | Raw input files (see Section 3) |
 | `data/processed/` | All pipeline outputs |
 | `logs/`, `logs_m4/` | Console output, run times, hardware and comparison results of the M1 and M4 reruns |
@@ -162,3 +179,13 @@ the audit script passes 62 of 62 checks on both machines.
 GA runs: 1000–1009 (hold-out check: 2000–2004); XGBoost search and fitting: 42;
 moving-block bootstrap and Model Confidence Set: 20261001. XGBoost runs single-threaded
 (`n_jobs=1`) so results are deterministic.
+
+## 9. Versions
+
+| Tag | Commit | Contents |
+|---|---|---|
+| `v1.0-thesis-results` | `b75fc72` | Reported run of the pipeline (Chapter 3 and the test-set results) |
+| `v1.1-chapter4` | `376e35c` | Scripts and outputs of the Chapter 4 tables and figures, before this README update |
+| `v1.2-thesis-results` | this README | Adds the scripts and outputs of every Chapter 4 table and figure (Sections 4.1–4.8) |
+
+To reproduce the thesis exactly, check out `v1.2-thesis-results`.
