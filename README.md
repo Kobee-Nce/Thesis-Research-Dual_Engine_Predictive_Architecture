@@ -134,6 +134,7 @@ python src/eval_ch4_stats.py               # Section 4.5, Diebold-Mariano, criti
 python src/eval_feature_importance.py      # Section 4.6, gain importance and group removal, 10 seeds (refits XGBoost; about 3 min)
 python src/eval_ch4_rq.py                  # Section 4.7, volatility, RQ2 and DFTC summaries
 python src/eval_ch4_supp.py                # Section 4.8, temporal split, leave-one-episode-out, error diagnostics
+python src/eval_ch4_revisions.py           # Sections 4.4.5 and 4.7.1, week-1 gap and diesel increases vs decreases (adviser review)
 ```
 
 Except for `eval_learning_curves.py` and `eval_feature_importance.py`, which refit models on the training
@@ -186,6 +187,7 @@ moving-block bootstrap and Model Confidence Set: 20261001. XGBoost runs single-t
 |---|---|---|
 | `v1.0-thesis-results` | `b75fc72` | Reported run of the pipeline (Chapter 3 and the test-set results) |
 | `v1.1-chapter4` | `376e35c` | Scripts and outputs of the Chapter 4 tables and figures, before this README update |
-| `v1.2-thesis-results` | this README | Adds the scripts and outputs of every Chapter 4 table and figure (Sections 4.1–4.8) |
+| `v1.2-thesis-results` | `973762d` | Adds the scripts and outputs of every Chapter 4 table and figure (Sections 4.1–4.8) |
+| `v1.3-thesis-results` | this README | Adds `eval_ch4_revisions.py` and its two tables (adviser review) |
 
-To reproduce the thesis exactly, check out `v1.2-thesis-results`.
+To reproduce the thesis exactly, check out `v1.3-thesis-results`.

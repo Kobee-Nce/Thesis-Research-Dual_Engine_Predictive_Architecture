@@ -1,0 +1,39 @@
+sample,term,coef,ci95_low,ci95_high,p_value,n
+"weekly, training weeks",const,2.8257,2.5626,3.0888,0.0,354
+"weekly, training weeks",rain_L0,0.2134,-0.36,0.7867,0.4658,354
+"weekly, training weeks",rain_L1,0.1903,-0.4835,0.8641,0.5799,354
+"weekly, training weeks",rain_L2,0.2061,-0.4054,0.8177,0.5089,354
+"weekly, training weeks",rain_L3,0.2142,-0.43,0.8584,0.5146,354
+"weekly, training weeks",up_L0,0.0206,-0.5684,0.6097,0.9452,354
+"weekly, training weeks",up_L1,0.0419,-0.9602,1.044,0.9347,354
+"weekly, training weeks",up_L2,-0.5507,-1.0417,-0.0598,0.0279,354
+"weekly, training weeks",up_L3,-0.3856,-1.046,0.2748,0.2525,354
+"weekly, training weeks",down_L0,-0.3893,-0.9212,0.1426,0.1514,354
+"weekly, training weeks",down_L1,-0.2914,-0.9933,0.4105,0.4158,354
+"weekly, training weeks",down_L2,-0.5974,-1.3706,0.1758,0.1299,354
+"weekly, training weeks",down_L3,-0.7144,-1.2921,-0.1368,0.0153,354
+"weekly, training weeks",JOINT rain lags = 0 (Wald),,,,0.9237,354
+"weekly, training weeks",JOINT up lags = 0 (Wald),,,,0.1064,354
+"weekly, training weeks",JOINT down lags = 0 (Wald),,,,0.1299,354
+"weekly, training weeks",EQUAL up = down at every lag (Wald),,,,0.5193,354
+"weekly, training weeks",count of trigger weeks: diesel increases,10.0,,,,354
+"weekly, training weeks",count of trigger weeks: diesel decreases,8.0,,,,354
+"weekly, full sample",const,2.8,2.5661,3.034,0.0,444
+"weekly, full sample",rain_L0,0.1898,-0.2418,0.6213,0.3888,444
+"weekly, full sample",rain_L1,0.1667,-0.2938,0.6272,0.478,444
+"weekly, full sample",rain_L2,0.0224,-0.3346,0.3794,0.9022,444
+"weekly, full sample",rain_L3,-0.0175,-0.4568,0.4218,0.9377,444
+"weekly, full sample",up_L0,-0.2775,-0.6417,0.0867,0.1353,444
+"weekly, full sample",up_L1,-0.3842,-0.9458,0.1773,0.1799,444
+"weekly, full sample",up_L2,-0.3034,-0.636,0.0291,0.0737,444
+"weekly, full sample",up_L3,0.1708,-0.3085,0.65,0.485,444
+"weekly, full sample",down_L0,-0.0634,-0.5048,0.378,0.7782,444
+"weekly, full sample",down_L1,-0.1457,-0.5674,0.276,0.4984,444
+"weekly, full sample",down_L2,-0.5268,-0.971,-0.0825,0.0201,444
+"weekly, full sample",down_L3,-0.5495,-0.9353,-0.1637,0.0052,444
+"weekly, full sample",JOINT rain lags = 0 (Wald),,,,0.9256,444
+"weekly, full sample",JOINT up lags = 0 (Wald),,,,0.084,444
+"weekly, full sample",JOINT down lags = 0 (Wald),,,,0.0445,444
+"weekly, full sample",EQUAL up = down at every lag (Wald),,,,0.1225,444
+"weekly, full sample",count of trigger weeks: diesel increases,22.0,,,,444
+"weekly, full sample",count of trigger weeks: diesel decreases,20.0,,,,444

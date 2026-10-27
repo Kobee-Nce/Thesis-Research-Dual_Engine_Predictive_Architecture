@@ -1,0 +1,15 @@
+commodity,indicator,noind
+Ampalaya,2.932,2.296
+Cabbage,3.758,3.087
+Carrot,4.202,4.468
+Eggplant,3.394,2.878
+Native garlic,2.07,1.489
+Patola,2.666,2.185
+Red onion,4.931,3.8
+Squash,4.079,3.932
+Tomato,6.81,6.513
+Upo,2.667,1.973
+Mean,3.751,3.262
+Median (all commodity-months),2.932,2.4
+MAPE of psa_naive in the monthly-origin evaluation,8.364,8.364
+MAPE of gated in the monthly-origin evaluation,9.42,8.403
